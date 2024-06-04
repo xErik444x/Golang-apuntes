@@ -129,7 +129,7 @@ fmt.Println("total: ", sum)
 
 ### Bucle Range
 * El `range` es utilizado para iterar `arrays`, `slices` y `maps` (tambien `canales`, pero todavía es pronto) en Go utilizando for:
-* Tenemos 3 parametros
+* Tenemos 3 parámetros
   * 
   * el array
   * otro valor
