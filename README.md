@@ -5,6 +5,9 @@
   - [Todo muy lindo, pero como lo ejecuto y uso?](#todo-muy-lindo-pero-como-lo-ejecuto-y-uso)
 - [Variables y declaraciones](#variables-y-declaraciones)
     - [tipos de datos variables](#tipos-de-datos-variables)
+- [estructuras de control básicas](#estructuras-de-control-básicas)
+    - [Bucle FOR](#bucle-for)
+    - [Bucle Range](#bucle-range)
   
 ---
 # Qué es esta "guía"?
@@ -103,4 +106,38 @@ const Nombre = "Nombre generico3"
 ```go
   var arr [...]int = [...]int{1,2,3}
   arr2 := [...]int{1,2,3,4}
+```
+# estructuras de control básicas
+### Bucle FOR
+* el for de Go no es muy diferente si miramos al de Java o Javascript 
+* Tenemos 3 parametros
+  * el valor inicial
+  * la condición
+  * operación al valor inicial
+```go
+	sum := 0
+	for i := 0; i < 10; i++ {
+		sum += i
+		fmt.Println("valor de i: ", i)
+        // valor de i:  0
+        // valor de i:  1
+        // ....
+	}
+	fmt.Println("total: ", sum)
+	// total:  45
+```
+
+### Bucle Range
+* El `range` es utilizado para iterar `arrays`, `slices` y `maps` (tambien `canales`, pero todavía es pronto) en Go utilizando for:
+* Tenemos 3 parametros
+  * 
+  * el array
+  * otro valor
+```go
+	numbers := []int{1, 2, 3, 4, 5}
+    sum := 0
+    for _, number := range numbers {
+        sum += number
+    }
+    fmt.Println("La suma de los números es:", sum)
 ```
