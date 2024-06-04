@@ -2,8 +2,8 @@
   - [para qué se usa??](#para-qué-se-usa)
   - [Ejemplo de Código en Go:](#ejemplo-de-código-en-go)
   - [Todo muy lindo, pero como lo ejecuto y uso?](#todo-muy-lindo-pero-como-lo-ejecuto-y-uso)
-
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- # - # - # - # - # - # - # - # - # - # - #- # - #- # - #- # 
+  
+---
 
 # que pingo es Golang?
 * es un lenguaje de programación de código abierto desarrollado por Google.
