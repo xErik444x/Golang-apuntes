@@ -129,15 +129,21 @@ fmt.Println("total: ", sum)
 
 ### Bucle Range
 * El `range` es utilizado para iterar `arrays`, `slices` y `maps` (tambien `canales`, pero todavía es pronto) en Go utilizando for:
-* Tenemos 3 parámetros
-  * 
-  * el array
-  * otro valor
+* Tenemos 2 valores devueltos por range:
+    * El `índice` del elemento.
+    * El `valor` del elemento.
 ```go
 numbers := []int{1, 2, 3, 4, 5}
 sum := 0
+// En el bucle for, el carácter _ se utiliza para ignorar el índice, ya que solo se necesita el valor del elemento para sumar los números.
 for _, number := range numbers {
     sum += number
 }
 fmt.Println("La suma de los números es:", sum)
+
+// con el indice:
+for index, number := range numbers {
+    fmt.Printf("Índice: %d, Valor: %d\n", index, number)
+    sum += number
+}
 ```
