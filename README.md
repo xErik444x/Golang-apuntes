@@ -115,16 +115,16 @@ const Nombre = "Nombre generico3"
   * la condición
   * operación al valor inicial
 ```go
-	sum := 0
-	for i := 0; i < 10; i++ {
-		sum += i
-		fmt.Println("valor de i: ", i)
-        // valor de i:  0
-        // valor de i:  1
-        // ....
-	}
-	fmt.Println("total: ", sum)
-	// total:  45
+sum := 0
+for i := 0; i < 10; i++ {
+    sum += i
+    fmt.Println("valor de i: ", i)
+    // valor de i:  0
+    // valor de i:  1
+    // ....
+}
+fmt.Println("total: ", sum)
+// total:  45
 ```
 
 ### Bucle Range
@@ -134,10 +134,10 @@ const Nombre = "Nombre generico3"
   * el array
   * otro valor
 ```go
-	numbers := []int{1, 2, 3, 4, 5}
-    sum := 0
-    for _, number := range numbers {
-        sum += number
-    }
-    fmt.Println("La suma de los números es:", sum)
+numbers := []int{1, 2, 3, 4, 5}
+sum := 0
+for _, number := range numbers {
+    sum += number
+}
+fmt.Println("La suma de los números es:", sum)
 ```
