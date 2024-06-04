@@ -48,3 +48,4 @@ func main() {
 }
 ```
 * una vez guardado solo resta ejecutarlo con `go run .` o `go run principal.go`
+* y listo, ahí tendrias tu primer programa en Golang!
