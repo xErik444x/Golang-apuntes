@@ -2,6 +2,7 @@
   - [para qué se usa??](#para-qué-se-usa)
   - [Ejemplo de Código en Go:](#ejemplo-de-código-en-go)
   - [Todo muy lindo, pero como lo ejecuto y uso?](#todo-muy-lindo-pero-como-lo-ejecuto-y-uso)
+- [variables y declaraciones](#variables-y-declaraciones)
   
 ---
 
@@ -48,4 +49,36 @@ func main() {
 }
 ```
 * una vez guardado solo resta ejecutarlo con `go run .` o `go run principal.go`
-* y listo, ahí tendrias tu primer programa en Golang!
+* y listo, ahí tendrías tu primer programa en Golang!
+
+# variables y declaraciones
+> En Go, las variables se pueden declarar de varias maneras. 
+* Declaración con var 
+```go 
+var nombre string
+var edad int
+```
+* Declaración con inicialización
+```go 
+var nombre string = "Nombre generico"
+var edad int = 30
+```
+* Declaración corta con :=
+```go 
+nombre := "Nombre generico2"
+edad := 30
+```
+* Declaración de múltiples variables
+```go 
+var (
+    nombre string
+    edad   int
+    altura float64
+)
+// Es posible declarar múltiples variables al mismo tiempo usando paréntesis.
+```
+* Constantes
+```go 
+const PI = 3.14
+const Nombre = "Nombre generico3"
+```
