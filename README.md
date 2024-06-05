@@ -18,6 +18,11 @@
       - [Ejemplo básico de if](#ejemplo-básico-de-if)
       - [If con declaración de inicialización](#if-con-declaración-de-inicialización)
       - [If-else](#if-else)
+    - [Switch](#switch)
+      - [Ejemplo básico de switch](#ejemplo-básico-de-switch)
+      - [Switch con múltiples valores en un caso](#switch-con-múltiples-valores-en-un-caso)
+      - [Switch sin expresión](#switch-sin-expresión)
+      - [Switch con declaración de inicialización](#switch-con-declaración-de-inicialización)
   
 ---
 
@@ -192,4 +197,58 @@ func main() {
     } else {
         fmt.Println("El número es menor que 10")
     }
+```
+### Switch
+El `switch` en Go se utiliza para seleccionar entre múltiples bloques de código a ejecutar. Es más flexible y conciso que encadenar múltiples sentencias `if-else`.
+
+* No es necesario el uso de `break` para salir de un caso, ya que Go lo hace automáticamente.
+* Se pueden agrupar múltiples valores en un solo caso.
+* El `switch` puede evaluar cualquier tipo de expresión, no solo valores enteros.
+* Go soporta una declaración de inicialización antes de la expresión en el `switch`.
+
+#### Ejemplo básico de switch
+```go
+package main
+
+import "fmt"
+
+func main() {
+    day := "lunes"
+
+    switch day {
+    case "lunes":
+        fmt.Println("Es lunes")
+    case "martes":
+        fmt.Println("Es martes")
+    default:
+        fmt.Println("No es ni lunes ni martes, tal vez miércoles, o jueves, quien sabe...")
+    }
+}
+```
+#### Switch con múltiples valores en un caso
+```go
+switch day {
+  case "sábado", "domingo":
+      fmt.Println("Es fin de semana")
+  default:
+      fmt.Println("Es un día de semana")
+}
+```
+#### Switch sin expresión
+```go
+switch {
+    case number < 0:
+        fmt.Println("El número es negativo")
+    case number == 0:
+        fmt.Println("El número es cero")
+}
+```
+#### Switch con declaración de inicialización
+```go
+switch number := 10; {
+    case number < 0:
+        fmt.Println("El número es negativo")
+    case number == 0:
+        fmt.Println("El número es cero")
+}
 ```
