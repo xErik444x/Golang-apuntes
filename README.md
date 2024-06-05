@@ -1,6 +1,12 @@
+# Qué es esta "guía"?
+- esta guía está hecha para aprender desde 0 las cosas más relevantes a la hora de aprender Golang, en especial si nunca lo viste o si sos principiante.
+¿Por qué? Porque quería aprender Go y, al igual que hice con [Python](https://github.com/xErik444x/apuntesPython) , me pareció una buena idea crear una mini guía con lo esencial que, con suerte, pueda servirle a alguien en el futuro.
+  
+# Índice
 - [Qué es esta "guía"?](#qué-es-esta-guía)
+- [Índice](#índice)
 - [Qué pingo es Golang?](#qué-pingo-es-golang)
-  - [Para qué se usa??](#para-qué-se-usa)
+  - [Para qué sirve??](#para-qué-sirve)
   - [Ejemplo de Código en Go:](#ejemplo-de-código-en-go)
   - [Todo muy lindo, pero como lo ejecuto y uso?](#todo-muy-lindo-pero-como-lo-ejecuto-y-uso)
 - [Variables y declaraciones](#variables-y-declaraciones)
@@ -14,8 +20,7 @@
       - [If-else](#if-else)
   
 ---
-# Qué es esta "guía"?
-- esta guía está hecha para aprender desde 0 las cosas más relevantes a la hora de aprender Golang, en especial si nunca lo viste o si sos principiante.
+
 # Qué pingo es Golang?
 * es un lenguaje de programación de código abierto desarrollado por Google.
 * se caracteriza por su simplicidad, eficiencia y capacidad para manejar concurrencia de manera efectiva.
@@ -23,7 +28,7 @@
 * Go es compilado y produce código máquina que se ejecuta rápidamente.
 * Go es compatible con diversas plataformas, incluyendo Windows, macOS y Linux.
 
-## Para qué se usa??
+## Para qué sirve??
 - **Desarrollo Web**: Go se utiliza ampliamente para crear servidores web y APIs gracias a su alto rendimiento y capacidad de manejar múltiples conexiones concurrentes.
 - **Herramientas y Utilidades del Sistema**: Go se usa para desarrollar herramientas de línea de comandos y otros tipos de software del sistema.
 
@@ -106,7 +111,7 @@ const Nombre = "Nombre generico3"
   var arr [3]int = [3]int{1,2,3}
   arr2 := [4]int{1,2,3,4}
 ```
-> o también sin predefinir el tamaño:
+> o también sin predefinir el tamaño (esto lo hace el compilador cuando le asignamos el valor a la variable):
 ```go
   var arr [...]int = [...]int{1,2,3}
   arr2 := [...]int{1,2,3,4}
