@@ -8,6 +8,10 @@
 - [estructuras de control básicas](#estructuras-de-control-básicas)
     - [Bucle FOR](#bucle-for)
     - [Bucle Range](#bucle-range)
+    - [If](#if)
+      - [Ejemplo básico de if](#ejemplo-básico-de-if)
+      - [If con declaración de inicialización](#if-con-declaración-de-inicialización)
+      - [If-else](#if-else)
   
 ---
 # Qué es esta "guía"?
@@ -146,4 +150,41 @@ for index, number := range numbers {
     fmt.Printf("Índice: %d, Valor: %d\n", index, number)
     sum += number
 }
+```
+### If
+El `if` en Go se utiliza para ejecutar bloques de código condicionalmente. La sintaxis básica es similar a otros lenguajes de programación, pero hay algunas diferencias notables:
+
+* No es necesario el uso de paréntesis `()` alrededor de la condición.
+* Las llaves `{}` son obligatorias incluso si el bloque `if` contiene una sola línea de código.
+* Go soporta una declaración de inicialización antes de la condición en el `if`, la cual se ejecuta antes de evaluar la condición.
+
+#### Ejemplo básico de if
+```go
+package main
+
+import "fmt"
+
+func main() {
+    number := 10
+
+    if number > 5 {
+        fmt.Println("El número es mayor que 5")
+    }
+}
+```
+#### If con declaración de inicialización
+```go
+   if number := 10; number > 5 {
+        fmt.Println("El número es mayor que 5")
+    }
+```
+#### If-else
+```go
+   if number > 10 {
+        fmt.Println("El número es mayor que 10")
+    } else if number == 10 {
+        fmt.Println("El número es 10")
+    } else {
+        fmt.Println("El número es menor que 10")
+    }
 ```
