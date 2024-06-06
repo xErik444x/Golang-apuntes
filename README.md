@@ -23,6 +23,9 @@
       - [Switch con múltiples valores en un caso](#switch-con-múltiples-valores-en-un-caso)
       - [Switch sin expresión](#switch-sin-expresión)
       - [Switch con declaración de inicialización](#switch-con-declaración-de-inicialización)
+    - [Error Handling (agarrar los errores)](#error-handling-agarrar-los-errores)
+      - [Declaración y manejo de errores en una función](#declaración-y-manejo-de-errores-en-una-función)
+    - [Defer](#defer)
   
 ---
 
@@ -122,6 +125,7 @@ const Nombre = "Nombre generico3"
   arr2 := [...]int{1,2,3,4}
 ```
 # estructuras de control básicas
+
 ### Bucle FOR
 * el for de Go no es muy diferente si miramos al de Java o Javascript 
 * Tenemos 3 parametros
@@ -250,5 +254,52 @@ switch number := 10; {
         fmt.Println("El número es negativo")
     case number == 0:
         fmt.Println("El número es cero")
+}
+```
+### Error Handling (agarrar los errores)
+* El manejo de errores en Go es explícito y se basa en la comprobación de valores de retorno de las funciones. En Go, las funciones que pueden fallar generalmente devuelven un valor y un error. Si el error no es `nil`, significa que ha ocurrido un error y debe ser manejado,
+ej:
+```Go
+func main() {
+    file, err := os.Open("archivo.txt")
+    if err != nil {
+        fmt.Println("Error al abrir el archivo:", err)
+        return
+    }
+    fmt.Println("Archivo abierto con éxito")
+}
+```
+#### Declaración y manejo de errores en una función
+* Supongamos que estamos escribiendo una función que divide dos números y queremos manejar el caso donde el divisor es cero, lo cual generaría un error.
+```Go
+// divide dos números y devuelve el resultado y un error si el divisor es cero
+func divide(a, b float64) (float64, error) {
+    if b == 0 {
+        return 0, errors.New("el divisor no puede ser cero")
+    }
+    return a / b, nil
+}
+
+main...
+result, err = divide(10, 0)
+    if err != nil {
+        fmt.Println("Error:", err)
+    } else {
+        fmt.Println("Resultado:", result)
+    }
+```
+### Defer
+* La palabra clave defer en Go se utiliza para posponer la ejecución de una función hasta que la función que la contiene haya terminado. Esto es muy útil para asegurar que ciertos recursos se liberen o ciertas acciones se realicen, sin importar cómo termine la función (ya sea de forma normal o debido a un error).
+```Go
+func main() {
+    file, err := os.Open("archivo.txt")
+    if err != nil {
+        fmt.Println("Error al abrir el archivo:", err)
+        return
+    }
+    // Asegura que el archivo se cierre al final de main, sin importar lo que ocurra.
+    defer file.Close()
+
+    fmt.Println("Archivo abierto con éxito")
 }
 ```
