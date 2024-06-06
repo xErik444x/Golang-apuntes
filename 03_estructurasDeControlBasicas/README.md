@@ -18,7 +18,7 @@
 
 ### Bucle FOR
 * el for de Go no es muy diferente si miramos al de Java o Javascript 
-* Tenemos 3 parametros
+* Tenemos 3 parámetros
   * el valor inicial
   * la condición
   * operación al valor inicial

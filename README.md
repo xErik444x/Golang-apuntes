@@ -29,3 +29,8 @@
     - [Error Handling (agarrar los errores)](03_estructurasDeControlBasicas/README.md#error-handling-agarrar-los-errores)
       - [Declaración y manejo de errores en una función](03_estructurasDeControlBasicas/README.md#declaración-y-manejo-de-errores-en-una-función)
     - [Defer](03_estructurasDeControlBasicas/README.md#defer)
+- [Funciones y paquetes](04_funcionesYPaquetes/README.md#funciones-y-paquetes)
+  - [Funciones](04_funcionesYPaquetes/README.md#funciones)
+    - [Ejemplo de una función simple](04_funcionesYPaquetes/README.md#ejemplo-de-una-función-simple)
+    - [Ejemplo devolviendo dos valores](04_funcionesYPaquetes/README.md#ejemplo-devolviendo-dos-valores)
+    - [Declarar funciones fuera del archivo principal](04_funcionesYPaquetes/README.md#declarar-funciones-fuera-del-archivo-principal)
