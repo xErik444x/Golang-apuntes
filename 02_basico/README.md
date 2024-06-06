@@ -51,7 +51,5 @@ const Nombre = "Nombre generico3"
   var arr [...]int = [...]int{1,2,3}
   arr2 := [...]int{1,2,3,4}
 ```
-<div style="display: flex; justify-content: space-between; margin-top: 20px;">
-    <a href="01-what-is-golang.md" style="text-decoration: none; padding: 8px 16px; background-color: #007bff; color: white; border-radius: 4px;"><< Anterior: Qué es Golang</a>
-    <a href="03-hello-world.md" style="text-decoration: none; padding: 8px 16px; background-color: #007bff; color: white; border-radius: 4px;">Siguiente: Hola Mundo en Go >></a>
-</div>
+[<< Anterior: Introducción](../01_introduccion/README.md) |
+[Siguiente: estructuras de control básicas >> ](../03_estructurasDeControlBasicas/README.md)

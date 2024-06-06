@@ -52,8 +52,4 @@ func main() {
 
 
 
-[>> Siguiente: Conceptos Básicos / variables](../02_basico/README.md)
-<div style="display: flex; justify-content: space-between; margin-top: 20px;">
-    <span></span>
-    <a href="../02_basico/README.md" style="text-decoration: none; padding: 8px 16px; background-color: #007bff; color: white; border-radius: 4px;">Siguiente: Cómo instalar Golang >></a>
-</div>
+[Siguiente: Conceptos Básicos / variables >> ](../02_basico/README.md)

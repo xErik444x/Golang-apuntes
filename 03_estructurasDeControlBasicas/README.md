@@ -193,3 +193,4 @@ func main() {
     fmt.Println("Archivo abierto con éxito")
 }
 ```
+[<< Anterior: Conceptos Básicos / variables >> ](../02_basico/README.md)
