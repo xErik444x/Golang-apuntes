@@ -52,4 +52,4 @@ func main() {
 
 
 
-[>> Siguiente: Conceptos Básicos / variables](02_basico/README.md)
+[>> Siguiente: Conceptos Básicos / variables](../02_basico/README.md)
