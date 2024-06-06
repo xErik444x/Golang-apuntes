@@ -51,3 +51,5 @@ const Nombre = "Nombre generico3"
   var arr [...]int = [...]int{1,2,3}
   arr2 := [...]int{1,2,3,4}
 ```
+[<< Anterior: Introducción](../01_introduccion/README.md) |
+[>> Siguiente: estructuras de control básicas](../03_estructurasDeControlBasicas/README.md)
