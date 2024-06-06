@@ -13,9 +13,13 @@
     - [Error Handling (agarrar los errores)](#error-handling-agarrar-los-errores)
       - [Declaración y manejo de errores en una función](#declaración-y-manejo-de-errores-en-una-función)
     - [Defer](#defer)
+  - [Ejercicios](#ejercicios)
     - [Ejercicio 1: Sumar números del 1 al 100](#ejercicio-1-sumar-números-del-1-al-100)
     - [Ejercicio 2: Sumar elementos de un array](#ejercicio-2-sumar-elementos-de-un-array)
     - [Ejercicio 3: Determinar el día de la semana](#ejercicio-3-determinar-el-día-de-la-semana)
+    - [Ejercicio 4: Manejo de errores al abrir un archivo](#ejercicio-4-manejo-de-errores-al-abrir-un-archivo)
+    - [Ejercicio 5: Manejo de errores en una función de división](#ejercicio-5-manejo-de-errores-en-una-función-de-división)
+    - [Ejercicio 6: Uso de defer para cerrar un archivo](#ejercicio-6-uso-de-defer-para-cerrar-un-archivo)
 
 # Estructuras de control básicas
 
@@ -196,6 +200,8 @@ func main() {
     fmt.Println("Archivo abierto con éxito")
 }
 ```
+## Ejercicios
+- recuerda visitar la pagina [Golang playground](https://go.dev/play/) para testear y hacer el codigo.
 ### Ejercicio 1: Sumar números del 1 al 100
 Escribe un programa que use un bucle `for` para sumar todos los números del 1 al 100 e imprima el resultado.
    - Si tienes problemas revisa el [ejercicio 1](./ejercicios/01.go)
@@ -211,6 +217,20 @@ Declara una variable day de tipo string y asígnale un valor (por ejemplo, "lune
 Usa una estructura switch para imprimir un mensaje dependiendo del valor de day.
    - Si tienes problemas revisa el [ejercicio 3](./ejercicios/03.go)
 
+### Ejercicio 4: Manejo de errores al abrir un archivo
+- Usa la función os.Open para intentar abrir un archivo llamado "archivo.txt".
+- Maneja el error si el archivo no se puede abrir e imprime un mensaje de error.
+- Si tienes problemas revisa el [ejercicio 4](./ejercicios/04.go)
+
+### Ejercicio 5: Manejo de errores en una función de división
+- Escribe una función divide que tome dos números a y b de tipo float64 y devuelva el resultado de la división y un error si el divisor es cero.
+- Usa la función divide en el main para dividir 10 entre 0 y maneja el error apropiadamente.
+- Si tienes problemas revisa el [ejercicio 5](./ejercicios/05.go)
+
+### Ejercicio 6: Uso de defer para cerrar un archivo
+- Usa la función os.Open para abrir un archivo llamado "archivo.txt".
+- Utiliza defer para asegurarte de que el archivo se cierre al final del main, sin importar si ocurre un error.
+- Si tienes problemas revisa el [ejercicio 6](./ejercicios/06.go)
 
 
 [<< Anterior: Conceptos Básicos / variables ](../02_basico/README.md)

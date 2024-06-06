@@ -54,6 +54,7 @@ const Nombre = "Nombre generico3"
 ```
 
 ## Ejercicios!
+- recuerda visitar la pagina [Golang playground](https://go.dev/play/) para testear y hacer el codigo.
 * Ejercicio 1: Declaración y asignación de variables
   - Declara una variable llamada ciudad de tipo string sin inicializarla.
   - Declara una variable llamada poblacion de tipo int y asígnale el valor 500000.
