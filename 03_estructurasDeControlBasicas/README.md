@@ -1,4 +1,4 @@
-- [estructuras de control básicas](#estructuras-de-control-básicas)
+- [Estructuras de control básicas](#estructuras-de-control-básicas)
     - [Bucle FOR](#bucle-for)
     - [Bucle Range](#bucle-range)
     - [If](#if)
@@ -14,7 +14,7 @@
       - [Declaración y manejo de errores en una función](#declaración-y-manejo-de-errores-en-una-función)
     - [Defer](#defer)
 
-# estructuras de control básicas
+# Estructuras de control básicas
 
 ### Bucle FOR
 * el for de Go no es muy diferente si miramos al de Java o Javascript 

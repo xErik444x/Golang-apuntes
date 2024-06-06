@@ -52,3 +52,6 @@ func main() {
 }
 ```
 - Si te das cuenta, no hace falta importar la función, porque ya forma parte del paquete main.
+
+
+[<< Anterior: Estructuras de control básicas](../03_estructurasDeControlBasicas/README.md)
