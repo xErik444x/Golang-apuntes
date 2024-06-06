@@ -4,6 +4,7 @@
   - [Para qué sirve??](#para-qué-sirve)
   - [Ejemplo de Código en Go](#ejemplo-de-código-en-go)
   - [Todo muy lindo, pero como lo ejecuto y uso?](#todo-muy-lindo-pero-como-lo-ejecuto-y-uso)
+  - [Ejercicios!](#ejercicios)
 # Qué pingo es Golang?
 * es un lenguaje de programación de código abierto desarrollado por Google.
 * se caracteriza por su simplicidad, eficiencia y capacidad para manejar concurrencia de manera efectiva.
@@ -49,7 +50,14 @@ func main() {
 * una vez guardado solo resta ejecutarlo con `go run .` o `go run principal.go`
 * y listo, ahí tendrías tu primer programa en Golang!
 
-
+## Ejercicios!
+* Crear un programa que imprima "Hola, Mundo!"
+  * pasos:
+  * crear carpeta
+  * inicializar el proyecto
+  * crear el archivo principal
+  * escribir el programa
+  * ejecutar el programa!
 
 
 [Siguiente: Conceptos Básicos / variables >> ](../02_basico/README.md)

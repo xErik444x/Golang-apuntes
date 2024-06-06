@@ -194,3 +194,5 @@ func main() {
 }
 ```
 [<< Anterior: Conceptos Básicos / variables ](../02_basico/README.md)
+|
+[Siguiente: Funciones y Paquetes >> ](../04_funcionesYPaquetes/README.md)
