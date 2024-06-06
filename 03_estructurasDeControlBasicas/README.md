@@ -13,6 +13,9 @@
     - [Error Handling (agarrar los errores)](#error-handling-agarrar-los-errores)
       - [Declaración y manejo de errores en una función](#declaración-y-manejo-de-errores-en-una-función)
     - [Defer](#defer)
+    - [Ejercicio 1: Sumar números del 1 al 100](#ejercicio-1-sumar-números-del-1-al-100)
+    - [Ejercicio 2: Sumar elementos de un array](#ejercicio-2-sumar-elementos-de-un-array)
+    - [Ejercicio 3: Determinar el día de la semana](#ejercicio-3-determinar-el-día-de-la-semana)
 
 # Estructuras de control básicas
 
@@ -193,6 +196,23 @@ func main() {
     fmt.Println("Archivo abierto con éxito")
 }
 ```
+### Ejercicio 1: Sumar números del 1 al 100
+Escribe un programa que use un bucle `for` para sumar todos los números del 1 al 100 e imprima el resultado.
+   - Si tienes problemas revisa el [ejercicio 1](./ejercicios/01.go)
+
+### Ejercicio 2: Sumar elementos de un array
+Declara un array de enteros nums con los valores {1, 2, 3, 4, 5}.
+Usa un bucle range para sumar todos los elementos del array e imprime el resultado.
+   - Si tienes problemas revisa el [ejercicio 2](./ejercicios/02.go)
+
+
+### Ejercicio 3: Determinar el día de la semana
+Declara una variable day de tipo string y asígnale un valor (por ejemplo, "lunes").
+Usa una estructura switch para imprimir un mensaje dependiendo del valor de day.
+   - Si tienes problemas revisa el [ejercicio 3](./ejercicios/03.go)
+
+
+
 [<< Anterior: Conceptos Básicos / variables ](../02_basico/README.md)
 |
 [Siguiente: Funciones y Paquetes >> ](../04_funcionesYPaquetes/README.md)
