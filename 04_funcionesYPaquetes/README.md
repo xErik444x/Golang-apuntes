@@ -134,3 +134,5 @@ func main() {
 
 
 [<< Anterior: Estructuras de control básicas](../03_estructurasDeControlBasicas/README.md)
+
+[Siguiente: Type Casting \& Maps \& Slices \& Structs \& Pointers >> ](../05_typeCastingMapsSlicesStructsPointers/README.md)

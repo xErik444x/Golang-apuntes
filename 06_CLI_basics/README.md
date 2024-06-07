@@ -73,3 +73,5 @@ func main() {
 ### Crear un CLI que multiplique dos números
 - crear un CLI en Go que tome dos números como parámetros y devuelva su producto. 
 - Si no sabes como hacerlo, revisa el [ejercicio 1 main.go](ejercicios/01/main.go)
+
+[<< Anterior: Type Casting \& Maps \& Slices \& Structs \& Pointers](../05_typeCastingMapsSlicesStructsPointers/README.md)

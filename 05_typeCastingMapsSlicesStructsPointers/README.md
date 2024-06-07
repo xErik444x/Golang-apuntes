@@ -199,3 +199,6 @@ if p != nil {
 - Crea una `función` que tome un `puntero` a un `int` y `duplique` el valor al que apunta. En main, define una variable entera, pasa su dirección a la función y muestra el valor antes y después de la llamada a la función.
 - - Si tienes dudas o no recuerdas como usar Punteros:  [Punteros](#pointers)
 - Si tienes dudas o problemas revisa el [ejercicio 5](./ejercicios/05/main.go)
+
+[<< Anterior: Funciones y paquetes](../04_funcionesYPaquetes/README.md)
+[Siguiente: CLI Basics >> ](../06_CLI_basics/README.md)
