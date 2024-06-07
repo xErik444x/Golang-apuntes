@@ -1,5 +1,5 @@
 ---
-id: my-document
+id: 00-indice
 title: Indice y Guía
 sidebar_label: Indice y Guía
 ---
