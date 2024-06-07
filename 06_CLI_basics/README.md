@@ -7,6 +7,8 @@
       - [compilar en Linux:](#compilar-en-linux)
       - [compilar en Windows:](#compilar-en-windows)
       - [compilar en Macos:](#compilar-en-macos)
+  - [Ejercicios!](#ejercicios)
+    - [Crear un CLI que multiplique dos números](#crear-un-cli-que-multiplique-dos-números)
 
 # Introducción a la Creación de CLI y Compilaciones
 - Los CLI (Command Line Interfaces) son una herramienta para interactuar con aplicaciones a través de la línea de comandos. En Go, crear CLI es eficiente y estructurado. 
@@ -30,12 +32,14 @@ func main() {
     // - valor por defecto
     // - descripción del parámetro
     nombre := flag.String("nombre", "Mundo", "un nombre para saludar")
+    edad := flag.Int("edad", 1, "edad")
 
     // Parseamos los flags / parámetros
     flag.Parse()
 
-    // Usamos el valor del flag
+    // Usamos el valor del flag con * porque es un puntero, no podemos modificarlo directamente.
     fmt.Printf("Hola, %s!\n", *nombre)
+    fmt.Printf("Edad: %d\n", *edad)
 }
 ```
 - Cómo lo ejecuto con parámetros?
@@ -64,3 +68,8 @@ func main() {
   
 #### compilar en Macos:
 - `GOOS=darwin GOARCH=arm64 go build -o saludo-darwin-arm64 saludo.go`
+
+## Ejercicios!
+### Crear un CLI que multiplique dos números
+- crear un CLI en Go que tome dos números como parámetros y devuelva su producto. 
+- Si no sabes como hacerlo, revisa el [ejercicio 1 main.go](ejercicios/01/main.go)

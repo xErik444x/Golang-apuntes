@@ -80,3 +80,5 @@
       - [compilar en Linux:](06_CLI_basics/README.md#compilar-en-linux)
       - [compilar en Windows:](06_CLI_basics/README.md#compilar-en-windows)
       - [compilar en Macos:](06_CLI_basics/README.md#compilar-en-macos)
+      - [Ejercicios!](06_CLI_basics/README.md#ejercicios)
+        - [Crear un CLI que multiplique dos números](06_CLI_basics/README.md#crear-un-cli-que-multiplique-dos-números)
