@@ -6,3 +6,6 @@ search_enabled: true
 
 sidebar:
   - 00-indice
+  - 01-introduccion
+  - 02-variables
+  - 03-estructuras
