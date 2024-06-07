@@ -1,3 +1,8 @@
+---
+id: 06-cli
+title: Cli basics
+sidebar_label: Introducción a la Creación de CLI y Compilaciones
+---
 - [Introducción a la Creación de CLI y Compilaciones](#introducción-a-la-creación-de-cli-y-compilaciones)
   - [Uso de la Biblioteca flag](#uso-de-la-biblioteca-flag)
     - [Quiero generar un ejecutable del programa, cómo hago?](#quiero-generar-un-ejecutable-del-programa-cómo-hago)

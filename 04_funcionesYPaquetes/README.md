@@ -1,3 +1,8 @@
+---
+id: 04-funciones
+title: Funciones y paquetes
+sidebar_label: Funciones y paquetes
+---
 - [Funciones y paquetes](#funciones-y-paquetes)
   - [Funciones](#funciones)
     - [Ejemplo de una función simple](#ejemplo-de-una-función-simple)
