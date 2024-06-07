@@ -1,6 +1,6 @@
 - [Introducción a la Creación de CLI y Compilaciones](#introducción-a-la-creación-de-cli-y-compilaciones)
   - [Uso de la Biblioteca flag](#uso-de-la-biblioteca-flag)
-    - [Quiero generar un ejecutable del programa, como hago?](#quiero-generar-un-ejecutable-del-programa-como-hago)
+    - [Quiero generar un ejecutable del programa, cómo hago?](#quiero-generar-un-ejecutable-del-programa-cómo-hago)
     - [compilación cruzada:](#compilación-cruzada)
       - [Listar las plataformas disponibles:](#listar-las-plataformas-disponibles)
       - [Compilar:](#compilar)
@@ -38,17 +38,17 @@ func main() {
     fmt.Printf("Hola, %s!\n", *nombre)
 }
 ```
-- Como lo ejecuto con parámetros?
+- Cómo lo ejecuto con parámetros?
 - `go run main.go --nombre=Manuel`
 - si no colocamos un valor por defecto, el valor por defecto es `Mundo`
 
-### Quiero generar un ejecutable del programa, como hago?
+### Quiero generar un ejecutable del programa, cómo hago?
 - para crear un ejecutable, necesitamos la biblioteca `go build`
 - con colocar `go build -o saludo` generamos un .exe (en windows, si usas otra plataforma el tipo de archivo puede ser diferente) `saludo`
 - para ejecutarlo con `./saludo --nombre=Juan`, o `saludo` y sus parámetros
 
 ### compilación cruzada:
-- quiero generar un ejecutable del programa, para otras plataformas (macos, windows, etc) como hago?
+- quiero generar un ejecutable del programa, para otras plataformas (macos, windows, etc) cómo hago?
 
 #### Listar las plataformas disponibles:
 - `go tool dist list`

@@ -9,7 +9,7 @@
     - [Maps](#maps-1)
   - [Pointers](#pointers)
     - [¿Qué es un Puntero?](#qué-es-un-puntero)
-    - [¿Como se crea un puntero?](#como-se-crea-un-puntero)
+    - [¿Cómo se crea un puntero?](#cómo-se-crea-un-puntero)
     - [Inicialización de Punteros](#inicialización-de-punteros)
     - [Punteros en Funciones](#punteros-en-funciones)
     - [Punteros a Estructuras (Structs)](#punteros-a-estructuras-structs)
@@ -86,7 +86,7 @@ func main() {
 ### ¿Qué es un Puntero?
 - Un puntero es una variable que almacena la dirección de memoria de otra variable.
 
-### ¿Como se crea un puntero?
+### ¿Cómo se crea un puntero?
 - Se utiliza el operador `*` para declarar un puntero.
 ej:
 ```go
