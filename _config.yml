@@ -3,8 +3,8 @@
 #- jekyll-remote-theme
 remote_theme: zendesk/jekyll-theme-zendesk-garden@main
 search_enabled: true
-sidebar:
-  - 00-indice
-  - 01-introduccion
-  - 02-variables
-  - 03-estructuras
+# sidebar:
+#   - 00-indice
+#   - 01-introduccion
+#   - 02-variables
+#   - 03-estructuras
