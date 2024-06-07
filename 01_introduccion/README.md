@@ -1,3 +1,8 @@
+---
+id: 01-introduccion
+title: Introducción
+sidebar_label: Introducción
+---
 # Índice
 - [Índice](#índice)
 - [Qué pingo es Golang?](#qué-pingo-es-golang)

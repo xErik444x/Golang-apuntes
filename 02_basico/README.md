@@ -1,3 +1,8 @@
+---
+id: 02-variables
+title: variables y declaraciones
+sidebar_label: Variables y Declaraciones
+---
 - [Variables y declaraciones](#variables-y-declaraciones)
     - [tipos de datos variables](#tipos-de-datos-variables)
   - [Ejercicios!](#ejercicios)
