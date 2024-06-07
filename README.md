@@ -1,8 +1,3 @@
----
-id: 00-indice
-title: Indice y Guía
-sidebar_label: Indice y Guía
----
 # Qué es esta "guía"?
 - Esta guía está hecha para aprender desde 0 las cosas más relevantes a la hora de aprender Golang, en especial si nunca lo viste o si sos principiante.
 ¿Por qué? Porque quería aprender Go y, al igual que hice con [Python](https://github.com/xErik444x/apuntesPython) , me pareció una buena idea crear una mini guía con lo esencial que, con suerte, pueda servirle a alguien en el futuro.
