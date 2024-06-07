@@ -35,7 +35,7 @@ func main() {
 ```bash
 $ go mod init example/hello
 ```
-* en este caso estamos creando el modulo example/hello (los nombres de módulos pueden llevar varias palabras separadas con `/`)
+* en este caso estamos creando el modulo example/hello (los nombres de módulos pueden llevar varias palabras separadas con `/` lo ideal es prefix/texto_descriptivo)
 * una vez creado el modulo, debemos crear el archivo que contenga la función `main` (principal) del programa.
 * dentro de un archivo con terminación .go ej: principal.go escribimos:
 ```go
