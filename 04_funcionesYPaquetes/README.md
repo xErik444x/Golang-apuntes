@@ -10,6 +10,7 @@
       - [Ejercicio 2: Devolver el doble y el triple de un número](#ejercicio-2-devolver-el-doble-y-el-triple-de-un-número)
       - [Ejercicio 3: Crear una función en otro archivo](#ejercicio-3-crear-una-función-en-otro-archivo)
       - [Ejercicio 4: Crear una función en otro archivo](#ejercicio-4-crear-una-función-en-otro-archivo)
+      - [Ejercicio 5: Crear un paquete personalizado](#ejercicio-5-crear-un-paquete-personalizado)
 
 # Funciones y paquetes
 ## Funciones
@@ -117,5 +118,9 @@ func main() {
 #### Ejercicio 4: Crear una función en otro archivo
 1. Usa el paquete `math` para calcular la raíz cuadrada de un número en el archivo `main.go`.
 2. Imprime el resultado.
+
+#### Ejercicio 5: Crear un paquete personalizado
+1. Crea un paquete llamado `operaciones` que contenga una función `Multiplicar` que tome dos `enteros` y `devuelva su multiplicación o producto`.
+2. Usa este paquete en `main.go` para multiplicar dos números e imprimir el resultado.
 
 [<< Anterior: Estructuras de control básicas](../03_estructurasDeControlBasicas/README.md)
