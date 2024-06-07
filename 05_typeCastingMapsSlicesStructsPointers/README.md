@@ -14,6 +14,12 @@
     - [Punteros en Funciones](#punteros-en-funciones)
     - [Punteros a Estructuras (Structs)](#punteros-a-estructuras-structs)
     - [Nil y Punteros](#nil-y-punteros)
+  - [Ejercicios!](#ejercicios)
+    - [Ejercicio 1: Type Casting](#ejercicio-1-type-casting)
+    - [Ejercicio 2: estudiantes Maps](#ejercicio-2-estudiantes-maps)
+    - [Ejercicio 3: Slices](#ejercicio-3-slices)
+    - [Ejercicio 4: Libros! (Structs)](#ejercicio-4-libros-structs)
+    - [Ejercicio 5: Pointers](#ejercicio-5-pointers)
 
 # Type Casting & Maps & Slices & Structs & Pointers
 
@@ -59,16 +65,27 @@ func main() {
 
 ## make
 
-La función `make` en Go se utiliza para inicializar `slices`, `maps` y `canales`. Es útil cuando necesitas crear estos tipos de datos con una longitud y capacidad específicas.
+La función `make` se utiliza para inicializar `slices`, `maps` y `canales`. Es útil cuando necesitas crear estos tipos de datos con una longitud y capacidad específicas.
 
 ### Slices
 Para crear un slice con una longitud y capacidad específica.
-
+- cual es la diferencia entre longitud y capacidad? 
+- La `longitud` de un slice representa la cantidad de elementos que contiene actualmente, mientras que la `capacidad` indica el tamaño máximo que puede alcanzar el slice antes de que necesite asignar más memoria.
 ```go
 func main() {
     slice := make([]int, 5, 10)
     fmt.Println(slice)       // Imprime: [0 0 0 0 0]
     fmt.Println(len(slice))  // Imprime: 5 (longitud)
+    fmt.Println(cap(slice))  // Imprime: 10 (capacidad)
+}
+```
+- para agregar elementos a un slice:
+```go
+func main() {
+    slice := make([]int, 5, 10)
+    slice = append(slice, 1, 2, 3)
+    fmt.Println(slice)       // Imprime: [0 0 0 0 0 1 2 3]
+    fmt.Println(len(slice))  // Imprime: 8 (longitud)
     fmt.Println(cap(slice))  // Imprime: 10 (capacidad)
 }
 ```
@@ -149,3 +166,36 @@ if p != nil {
     fmt.Println("El puntero es nil")
 }
 ```
+
+## Ejercicios!
+### Ejercicio 1: Type Casting
+- Convierte un `float64` a un `int` y un `int` a un `float64`. Calcula la suma de ambos y muestra el resultado en ambos tipos.
+```go
+    var a float64 = 7.5
+    var b int = 3
+    // completa el código
+    
+    fmt.Printf("Suma como float64: %.2f\n", sumFloat)
+    fmt.Printf("Suma como int: %d\n", sumInt)
+```
+- Si tienes dudas o problemas revisa el [ejercicio 1](./ejercicios/01/main.go)
+
+### Ejercicio 2: estudiantes Maps
+- Crea un `map` para almacenar `nombres de estudiantes y sus calificaciones`. Agrega al menos tres estudiantes y sus calificaciones, luego muestra todas las calificaciones con un bucle Range.
+- Si tienes dudas o no recuerdas como usar el range:  [Bucle Range](../03_estructurasDeControlBasicas/README.md#bucle-range)
+- Si tienes dudas o problemas revisa el [ejercicio 2](./ejercicios/02/main.go)
+  
+### Ejercicio 3: Slices
+- Crea un `slice` de `enteros` con `make` con al menos `cinco elementos`. `Agrega dos elementos` más al slice y `muestra la longitud y capacidad` del slice después de agregar los nuevos elementos.
+- Si tienes dudas o no recuerdas como usar el Slice con Make:  [Make Slices](#slices-1)
+- Si tienes dudas o problemas revisa el [ejercicio 3](./ejercicios/03/main.go)
+
+### Ejercicio 4: Libros! (Structs)
+- Define una `struct` llamada `Libro` con los campos `Titulo` y `Autor`. Crea una instancia de Libro, inicializa sus campos y muestra sus valores.
+- Si tienes dudas o no recuerdas como usar Structs:  [Structs](#structs)
+- Si tienes dudas o problemas revisa el [ejercicio 4](./ejercicios/04/main.go)
+
+### Ejercicio 5: Pointers
+- Crea una `función` que tome un `puntero` a un `int` y `duplique` el valor al que apunta. En main, define una variable entera, pasa su dirección a la función y muestra el valor antes y después de la llamada a la función.
+- - Si tienes dudas o no recuerdas como usar Punteros:  [Punteros](#pointers)
+- Si tienes dudas o problemas revisa el [ejercicio 5](./ejercicios/05/main.go)
