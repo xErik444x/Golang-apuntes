@@ -100,6 +100,7 @@ Vamos a cambiar un poco la dinámica, que te parece si hacemos una especie de ma
 
 ### Nivel 2: La Sala de la Escritura
 **Desafío: Escribir "¡Bienvenido a la Mazmorra de los Archivos!" en "aventura.txt"**
+**Desafío adicional: Intenta buscar un paquete de golang, que genere quotes o textos y mételo en el archivo**
 
 ### Nivel 3: La Sala de la Lectura
 **Desafío: Leer el contenido de "aventura.txt" y mostrarlo en la consola**
