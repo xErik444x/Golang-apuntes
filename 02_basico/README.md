@@ -2,6 +2,8 @@
 id: 02-variables
 title: variables y declaraciones
 sidebar_label: Variables y Declaraciones
+previous_page: 01-introduccion
+next_page: 03-estructuras
 ---
 - [Variables y declaraciones](#variables-y-declaraciones)
     - [tipos de datos variables](#tipos-de-datos-variables)

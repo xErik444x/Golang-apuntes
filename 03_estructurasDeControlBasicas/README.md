@@ -2,6 +2,8 @@
 id: 03-estructuras
 title: Estructuras de control basicas
 sidebar_label: Estructuras de control basicas
+previous_page: 02-variables
+next_page: 04-funciones
 ---
 - [Estructuras de control básicas](#estructuras-de-control-básicas)
     - [Bucle FOR](#bucle-for)

@@ -2,6 +2,7 @@
 id: 07-archivos
 title: Archivos!
 sidebar_label: Archivos!
+previous_page: 06-cli
 ---
 - [Archivos, ficheros, y directorios](#archivos-ficheros-y-directorios)
 		- [Crear un archivo](#crear-un-archivo)

@@ -2,6 +2,8 @@
 id: 04-funciones
 title: Funciones y paquetes
 sidebar_label: Funciones y paquetes
+previous_page: 03-estructuras
+next_page: 05-types
 ---
 - [Funciones y paquetes](#funciones-y-paquetes)
   - [Funciones](#funciones)

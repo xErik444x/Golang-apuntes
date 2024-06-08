@@ -2,6 +2,8 @@
 id: 06-cli
 title: Cli basics
 sidebar_label: Introducción a la Creación de CLI y Compilaciones
+previous_page: 05-types
+next_page: 07-archivos
 ---
 - [Introducción a la Creación de CLI y Compilaciones](#introducción-a-la-creación-de-cli-y-compilaciones)
   - [Uso de la Biblioteca flag](#uso-de-la-biblioteca-flag)

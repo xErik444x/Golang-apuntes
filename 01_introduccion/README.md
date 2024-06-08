@@ -2,6 +2,7 @@
 id: 01-introduccion
 title: Introducción
 sidebar_label: Introducción
+next_page: 02-variables
 ---
 # Índice
 - [Índice](#índice)

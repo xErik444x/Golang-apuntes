@@ -2,6 +2,8 @@
 id: 05-types
 title: Type Castings...
 sidebar_label: Type Casting & Maps & Slices & Structs & Pointers
+previous_page: 04-funciones
+next_page: 06-cli
 ---
 - [Type Casting \& Maps \& Slices \& Structs \& Pointers](#type-casting--maps--slices--structs--pointers)
   - [Type casting](#type-casting)
