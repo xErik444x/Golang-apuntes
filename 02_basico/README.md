@@ -90,5 +90,5 @@ const Nombre = "Nombre generico3"
   - Declara un array arr3 sin predefinir su tamaño, inicializándolo con los valores 8, 9, 10.
   - Si tienes problemas revisa el [ejercicio 4](./ejercicios/04.go)
 
-[<< Anterior: Introducción](../01_introduccion/README.md) |
-[Siguiente: estructuras de control básicas >> ](../03_estructurasDeControlBasicas/README.md)
+<!-- [<< Anterior: Introducción](../01_introduccion/README.md) |
+[Siguiente: estructuras de control básicas >> ](../03_estructurasDeControlBasicas/README.md) -->

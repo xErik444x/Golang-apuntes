@@ -252,6 +252,6 @@ Usa una estructura switch para imprimir un mensaje dependiendo del valor de day.
 - Si tienes problemas revisa el [ejercicio 6](./ejercicios/06.go)
 
 
-[<< Anterior: Conceptos Básicos / variables ](../02_basico/README.md)
+<!-- [<< Anterior: Conceptos Básicos / variables ](../02_basico/README.md)
 |
-[Siguiente: Funciones y Paquetes >> ](../04_funcionesYPaquetes/README.md)
+[Siguiente: Funciones y Paquetes >> ](../04_funcionesYPaquetes/README.md) -->

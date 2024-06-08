@@ -5,11 +5,11 @@ sidebar_label: Archivos!
 previous_page: 06-cli
 ---
 - [Archivos, ficheros, y directorios](#archivos-ficheros-y-directorios)
-		- [Crear un archivo](#crear-un-archivo)
-		- [Escribir en un archivo](#escribir-en-un-archivo)
-		- [Leer un archivo](#leer-un-archivo)
-		- [Borrar un archivo](#borrar-un-archivo)
-		- [Métodos destacables del paquete `os` para archivos y carpetas](#métodos-destacables-del-paquete-os-para-archivos-y-carpetas)
+	- [Crear un archivo](#crear-un-archivo)
+	- [Escribir en un archivo](#escribir-en-un-archivo)
+	- [Leer un archivo](#leer-un-archivo)
+	- [Borrar un archivo](#borrar-un-archivo)
+	- [Métodos destacables del paquete `os` para archivos y carpetas](#métodos-destacables-del-paquete-os-para-archivos-y-carpetas)
 	- [Ejercicios!](#ejercicios)
 	- [Mazmorra de los Archivos](#mazmorra-de-los-archivos)
 		- [Nivel 1: La Sala de Creación](#nivel-1-la-sala-de-creación)
@@ -21,7 +21,7 @@ previous_page: 06-cli
 # Archivos, ficheros, y directorios
 - Para escribir en un archivo, podés usar el paquete `os` para crear y abrir archivos y el paquete `bufio` o `io/ioutil` para escribir datos en ellos.
 
-### Crear un archivo
+## Crear un archivo
 - Para crear un archivo, puedes usar la función `os.Create`, esta devuelve el archivo abierto y un error (si hay):
 ```go
 	archivo, err := os.Create("test.txt")
@@ -30,7 +30,7 @@ previous_page: 06-cli
 	}
 	defer archivo.Close() // debe cerrarse al final de la ejecución para evitar errores / limpiar recursos.
 ```
-### Escribir en un archivo
+## Escribir en un archivo
 - Para escribir en un archivo, puedes usar el paquete `os` para crear y abrir archivos, una vez abierto llamas a `WriteString` con el texto que deseas escribir y listo ;).
 ```go
 	archivo, err := os.Create("test.txt")
@@ -46,7 +46,7 @@ previous_page: 06-cli
 	}
 }
 ```
-### Leer un archivo
+## Leer un archivo
 - Para leer un archivo, puedes usar el paquete `os` con la función `ReadFile` y lesto papurri, ahí tenes tu archivo todo lindo, todo bonito.
 ```go
 	content, err := os.ReadFile("test.txt")
@@ -57,7 +57,7 @@ previous_page: 06-cli
 	fmt.Println(string(content))
 }
 ```
-### Borrar un archivo
+## Borrar un archivo
 - Para borrar un archivo, puedes usar el paquete `os` con la función `Remove`. Así, seco, sin nada más que añadir >:C
 ```go
     err = os.Remove("test.txt")
@@ -65,7 +65,7 @@ previous_page: 06-cli
 		fmt.Println("error al borrar el archivo D:", err)
 	}
 ```
-### Métodos destacables del paquete `os` para archivos y carpetas
+## Métodos destacables del paquete `os` para archivos y carpetas
 - `os.Mkdir` para crear carpetas
 - `os.MkdirAll` para crear carpetas con subcarpetas
 - `os.Rename` para renombrar archivos
@@ -105,7 +105,5 @@ Vamos a cambiar un poco la dinámica, que te parece si hacemos una especie de ma
 
 ### Nivel 5: La Sala de los Métodos Especiales
 **Desafío: Crear un directorio "mazmorra", renombrarlo a "mazmorra_final" y luego borrarlo**
-
-
-[<< Anterior: CLI Basics](../06_CLI_basics/README.md)
+<!-- [<< Anterior: CLI Basics](../06_CLI_basics/README.md) -->
 

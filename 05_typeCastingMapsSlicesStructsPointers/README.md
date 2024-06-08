@@ -207,6 +207,6 @@ if p != nil {
 - - Si tienes dudas o no recuerdas como usar Punteros:  [Punteros](#pointers)
 - Si tienes dudas o problemas revisa el [ejercicio 5](./ejercicios/05/main.go)
 
-[<< Anterior: Funciones y paquetes](../04_funcionesYPaquetes/README.md)
+<!-- [<< Anterior: Funciones y paquetes](../04_funcionesYPaquetes/README.md)
 |
-[Siguiente: CLI Basics >> ](../06_CLI_basics/README.md)
+[Siguiente: CLI Basics >> ](../06_CLI_basics/README.md) -->
