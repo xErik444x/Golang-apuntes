@@ -27,6 +27,7 @@ previous_page: 06-cli
 	archivo, err := os.Create("test.txt")
 	if err != nil {
 		fmt.Println("error al crear el archivo :c ", err)
+		return
 	}
 	defer archivo.Close() // debe cerrarse al final de la ejecución para evitar errores / limpiar recursos.
 ```
@@ -36,6 +37,7 @@ previous_page: 06-cli
 	archivo, err := os.Create("test.txt")
 	if err != nil {
 		fmt.Println("error al crear el archivo :c ", err)
+		return
 	}
 	defer archivo.Close()
 
@@ -43,6 +45,7 @@ previous_page: 06-cli
 	_, err = archivo.WriteString(texto)
 	if err != nil {
 		fmt.Println("error al escribir en el archivo >:C ", err)
+		return
 	}
 }
 ```
@@ -63,6 +66,7 @@ previous_page: 06-cli
     err = os.Remove("test.txt")
 	if err != nil {
 		fmt.Println("error al borrar el archivo D:", err)
+		return
 	}
 ```
 ## Métodos destacables del paquete `os` para archivos y carpetas
