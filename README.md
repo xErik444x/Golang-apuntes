@@ -1,7 +1,8 @@
 # Qué es esta "guía"?
+- Antes de nada, parece una guía extensa, lo es, pero no lo es del todo, solo cubro las características básicas y la sintaxis para entender Golang!
 - Esta guía está hecha para aprender desde 0 las cosas más relevantes a la hora de aprender Golang, en especial si nunca lo viste o si sos principiante.
 ¿Por qué? Porque quería aprender Go y, al igual que hice con [Python](https://github.com/xErik444x/apuntesPython) , me pareció una buena idea crear una mini guía con lo esencial que, con suerte, pueda servirle a alguien en el futuro.
-- La idea a futuro es hostear esto como una mini wiki o docs.
+
   ## Índice
 - [Introducción a Golang](01_introduccion/README.md)
   - [Índice](01_introduccion/README.md#índice)
@@ -82,3 +83,16 @@
       - [compilar en Macos:](06_CLI_basics/README.md#compilar-en-macos)
       - [Ejercicios!](06_CLI_basics/README.md#ejercicios)
         - [Crear un CLI que multiplique dos números](06_CLI_basics/README.md#crear-un-cli-que-multiplique-dos-números)
+- [Archivos, ficheros, y directorios](07_archivos/README.md#archivos-ficheros-y-directorios)
+    - [Crear un archivo](07_archivos/README.md#crear-un-archivo)
+    - [Escribir en un archivo](07_archivos/README.md#escribir-en-un-archivo)
+    - [Leer un archivo](07_archivos/README.md#leer-un-archivo)
+    - [Borrar un archivo](07_archivos/README.md#borrar-un-archivo)
+    - [Métodos destacables del paquete `os` para archivos y carpetas](07_archivos/README.md#métodos-destacables-del-paquete-os-para-archivos-y-carpetas)
+  - [Ejercicios!](07_archivos/README.md#ejercicios)
+  - [Mazmorra de los Archivos](07_archivos/README.md#mazmorra-de-los-archivos)
+    - [Nivel 1: La Sala de Creación](07_archivos/README.md#nivel-1-la-sala-de-creación)
+    - [Nivel 2: La Sala de la Escritura](07_archivos/README.md#nivel-2-la-sala-de-la-escritura)
+    - [Nivel 3: La Sala de la Lectura](07_archivos/README.md#nivel-3-la-sala-de-la-lectura)
+    - [Nivel 4: La Sala del Borrado](07_archivos/README.md#nivel-4-la-sala-del-borrado)
+    - [Nivel 5: La Sala de los Métodos Especiales](07_archivos/README.md#nivel-5-la-sala-de-los-métodos-especiales)
