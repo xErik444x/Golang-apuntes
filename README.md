@@ -1,7 +1,7 @@
 # Qué es esta "guía"?
 - Antes de nada, parece una guía extensa, lo es, pero no lo es del todo, solo cubro las características básicas y la sintaxis para entender Golang!
 - Esta guía está hecha para aprender desde 0 las cosas más relevantes a la hora de aprender Golang, en especial si nunca lo viste o si sos principiante.
-¿Por qué? Porque quería aprender Go y, al igual que hice con [Python](https://github.com/xErik444x/apuntesPython) , me pareció una buena idea crear una mini guía con lo esencial que, con suerte, pueda servirle a alguien en el futuro.
+- ¿Por qué? Porque quería aprender Go y, al igual que hice con [Python](https://github.com/xErik444x/apuntesPython) , me pareció una buena idea crear una mini guía con lo esencial que, con suerte, pueda servirle a alguien en el futuro.
 
   ## Índice
 - [Introducción a Golang](01_introduccion/README.md)
