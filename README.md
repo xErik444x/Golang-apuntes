@@ -4,7 +4,8 @@
 - ¿Por qué? Porque quería aprender Go y, al igual que hice con [Python](https://github.com/xErik444x/apuntesPython).
 - Me pareció una buena idea crear una mini guía con lo esencial que, con suerte, pueda servirle a alguien en el futuro.
 
-  ## Índice
+
+# Índice
 - [Introducción a Golang](01_introduccion/README.md)
   - [Índice](01_introduccion/README.md#índice)
   - [Qué pingo es Golang?](01_introduccion/README.md#qué-pingo-es-golang)
