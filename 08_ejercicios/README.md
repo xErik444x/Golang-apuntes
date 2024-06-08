@@ -1,0 +1,11 @@
+# TODO
+- Recomendaciones y Ejercicios adicionales hasta este punto de la guía
+  - Conversor de Monedas
+    - Implementa un programa que convierta entre diferentes monedas utilizando variables y funciones.
+    - como extra de esto podrías compilarlo y usarlo como CLI.
+  - Gestor de Tareas (To-Do List)
+    - Utiliza structs y slices para crear un gestor de tareas simple que permita añadir, eliminar y listar tareas.
+  - Calculadora CLI
+    - Desarrolla una calculadora de línea de comandos que soporte operaciones básicas (suma, resta, multiplicación, división).
+  - Lector de Archivos
+    - Crea un programa que lea un archivo, maneje errores al abrirlo, y procese su contenido (como contar palabras o líneas).
