@@ -1,16 +1,21 @@
+---
+id: 07-archivos
+title: Archivos!
+sidebar_label: Archivos!
+---
 - [Archivos, ficheros, y directorios](#archivos-ficheros-y-directorios)
-    - [Crear un archivo](#crear-un-archivo)
-    - [Escribir en un archivo](#escribir-en-un-archivo)
-    - [Leer un archivo](#leer-un-archivo)
-    - [Borrar un archivo](#borrar-un-archivo)
-    - [Métodos destacables del paquete `os` para archivos y carpetas](#métodos-destacables-del-paquete-os-para-archivos-y-carpetas)
-  - [Ejercicios!](#ejercicios)
-  - [Mazmorra de los Archivos](#mazmorra-de-los-archivos)
-    - [Nivel 1: La Sala de Creación](#nivel-1-la-sala-de-creación)
-    - [Nivel 2: La Sala de la Escritura](#nivel-2-la-sala-de-la-escritura)
-    - [Nivel 3: La Sala de la Lectura](#nivel-3-la-sala-de-la-lectura)
-    - [Nivel 4: La Sala del Borrado](#nivel-4-la-sala-del-borrado)
-    - [Nivel 5: La Sala de los Métodos Especiales](#nivel-5-la-sala-de-los-métodos-especiales)
+		- [Crear un archivo](#crear-un-archivo)
+		- [Escribir en un archivo](#escribir-en-un-archivo)
+		- [Leer un archivo](#leer-un-archivo)
+		- [Borrar un archivo](#borrar-un-archivo)
+		- [Métodos destacables del paquete `os` para archivos y carpetas](#métodos-destacables-del-paquete-os-para-archivos-y-carpetas)
+	- [Ejercicios!](#ejercicios)
+	- [Mazmorra de los Archivos](#mazmorra-de-los-archivos)
+		- [Nivel 1: La Sala de Creación](#nivel-1-la-sala-de-creación)
+		- [Nivel 2: La Sala de la Escritura](#nivel-2-la-sala-de-la-escritura)
+		- [Nivel 3: La Sala de la Lectura](#nivel-3-la-sala-de-la-lectura)
+		- [Nivel 4: La Sala del Borrado](#nivel-4-la-sala-del-borrado)
+		- [Nivel 5: La Sala de los Métodos Especiales](#nivel-5-la-sala-de-los-métodos-especiales)
 
 # Archivos, ficheros, y directorios
 - Para escribir en un archivo, podés usar el paquete `os` para crear y abrir archivos y el paquete `bufio` o `io/ioutil` para escribir datos en ellos.
