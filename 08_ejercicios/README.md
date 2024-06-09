@@ -1,11 +1,13 @@
-# TODO
-- Recomendaciones y Ejercicios adicionales hasta este punto de la guía
-  - Conversor de Monedas
-    - Implementa un programa que convierta entre diferentes monedas utilizando variables y funciones.
-    - como extra de esto podrías compilarlo y usarlo como CLI.
-  - Gestor de Tareas (To-Do List)
-    - Utiliza structs y slices para crear un gestor de tareas simple que permita añadir, eliminar y listar tareas.
-  - Calculadora CLI
-    - Desarrolla una calculadora de línea de comandos que soporte operaciones básicas (suma, resta, multiplicación, división).
-  - Lector de Archivos
-    - Crea un programa que lea un archivo, maneje errores al abrirlo, y procese su contenido (como contar palabras o líneas).
+# Ejercicios para hacer hasta este punto de la guía!
+- Antes de empezar, es normal que te trabes o no entiendas como hacer algo, recordá que tenes la guía para revisar, nuestro amigo GPT y la documentación de Go.
+
+## Ejercicio 1: Conversor:
+- una empresa necesita un Conversor de monedas. Crea un programa que lea una cantidad de euros y lo convierta a dólares.
+  - si querés complicarlo un poquito más, podrías hacerlo con un menu de selección de monedas.
+  - Tambien recordá que podes compilarlo y usarlo como CLI!
+
+## Ejercicio 2: Gestor de Tareas:
+- Crea un programa que permita añadir, quitar y mostrar las tareas pendientes de una lista de tareas.
+- Podes usar maps, structs, slices, etc.
+- Si querés complicarlo un poco, podrías hacer que cada tarea se guarde en una carpeta y archivo diferente.
+
