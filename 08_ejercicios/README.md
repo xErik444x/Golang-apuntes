@@ -1,3 +1,14 @@
+---
+id: 08-ejercicios
+title: Ejercicios!
+sidebar_label: Ejercicios!
+previous_page: 07-archivos
+---
+
+- [Ejercicios para hacer hasta este punto de la guía!](#ejercicios-para-hacer-hasta-este-punto-de-la-guía)
+  - [Ejercicio 1: Conversor:](#ejercicio-1-conversor)
+  - [Ejercicio 2: Gestor de Tareas:](#ejercicio-2-gestor-de-tareas)
+
 # Ejercicios para hacer hasta este punto de la guía!
 - Antes de empezar, es normal que te trabes o no entiendas como hacer algo, recordá que tenes la guía para revisar, nuestro amigo GPT y la documentación de Go.
 

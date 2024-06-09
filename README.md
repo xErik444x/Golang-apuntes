@@ -98,3 +98,6 @@
     - [Nivel 3: La Sala de la Lectura](07_archivos/README.md#nivel-3-la-sala-de-la-lectura)
     - [Nivel 4: La Sala del Borrado](07_archivos/README.md#nivel-4-la-sala-del-borrado)
     - [Nivel 5: La Sala de los Métodos Especiales](07_archivos/README.md#nivel-5-la-sala-de-los-métodos-especiales)
+- [Ejercicios para hacer hasta este punto de la guía!](08_ejercicios/README.md#ejercicios-para-hacer-hasta-este-punto-de-la-guía)
+  - [Ejercicio 1: Conversor:](08_ejercicios/README.md#ejercicio-1-conversor)
+  - [Ejercicio 2: Gestor de Tareas:](08_ejercicios/README.md#ejercicio-2-gestor-de-tareas)
