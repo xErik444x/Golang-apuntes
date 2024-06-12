@@ -50,6 +50,7 @@ func main() {
     fmt.Printf("Edad: %d\n", *edad)
 }
 ```
+
 - Cómo lo ejecuto con parámetros?
 - `go run main.go --nombre=Manuel`
 - si no colocamos un valor por defecto, el valor por defecto es `Mundo`
