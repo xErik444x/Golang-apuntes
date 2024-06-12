@@ -3,6 +3,7 @@ id: 08-ejercicios
 title: Ejercicios!
 sidebar_label: Ejercicios!
 previous_page: 07-archivos
+next_page: 09-json
 ---
 
 - [Ejercicios para hacer hasta este punto de la guía!](#ejercicios-para-hacer-hasta-este-punto-de-la-guía)
