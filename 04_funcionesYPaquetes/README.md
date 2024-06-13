@@ -27,7 +27,9 @@ next_page: 05-types
 ### Ejemplo de una función simple
 
 
-```go
+```Go
+
+
 func main() {
     fmt.Println(sumar(2, 3))
 } 
@@ -39,7 +41,8 @@ func sumar(a int, b int) int {
 
 ### Ejemplo devolviendo dos valores
 
-```go
+```Go
+
 func main() {
     a, b := vals()
     fmt.Println(a)
@@ -54,7 +57,8 @@ func vals() (int, int) {
 - Las funciones también se pueden declarar fuera del archivo principal y ser utilizadas en el mismo o en otros archivos.
 - `archivo matematicas.go`
 
-```go
+```Go
+
 package main
 
 func sumar(a int, b int) int {
@@ -64,7 +68,8 @@ func sumar(a int, b int) int {
 
 - `archivo main.go`
 
-```go
+```Go
+
 package main
 
 import "fmt"
@@ -83,7 +88,8 @@ func main() {
 - `math` es un paquete de funciones matemáticas.
 ej:
 
-```go
+```Go
+
 package main
 import "fmt"
 import "math"
@@ -101,7 +107,8 @@ func main() {
 - creamos un archivo llamado `operaciones.go`
 - dentro metemos la función `Sumar` y `Restar` siguientes:
 
-```go
+```Go
+
 package operaciones
 
 func Sumar(a int, b int) int {
@@ -114,7 +121,8 @@ func Restar(a int, b int) int {
 
 - Si te das cuenta colocamos el nombre del paquete en la parte superior, ej `package operaciones`, y luego solo basta con importar el paquete colocando el identificador del proyecto (dentro del go.mod) y el nombre del paquete, ej:
 
-```go
+```Go
+
 import "fmt"
 import "idProyecto/descripcion/operaciones"
 func main() {
