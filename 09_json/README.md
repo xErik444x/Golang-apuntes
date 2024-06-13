@@ -3,6 +3,7 @@ id: 09-json
 title: JSON!
 sidebar_label: JSON!
 previous_page: 08-ejercicios
+next_page: 10-interfaces
 ---
 - [Empecemos con lo bueno, se vienen los JSONs!](#empecemos-con-lo-bueno-se-vienen-los-jsons)
 	- [¿Qué es un JSON? te estarás preguntando... o no (?)](#qué-es-un-json-te-estarás-preguntando-o-no-)
