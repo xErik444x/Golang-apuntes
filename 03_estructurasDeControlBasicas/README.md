@@ -174,6 +174,7 @@ switch number := 10; {
 ### Error Handling (agarrar los errores)
 * El manejo de errores en Go es explícito y se basa en la comprobación de valores de retorno de las funciones. En Go, las funciones que pueden fallar generalmente devuelven un valor y un error. Si el error no es `nil`, significa que ha ocurrido un error y debe ser manejado,
 ej:
+
 ```Go
 func main() {
     file, err := os.Open("archivo.txt")
@@ -187,6 +188,7 @@ func main() {
 
 #### Declaración y manejo de errores en una función
 * Supongamos que estamos escribiendo una función que divide dos números y queremos manejar el caso donde el divisor es cero, lo cual generaría un error.
+
 ```Go
 // divide dos números y devuelve el resultado y un error si el divisor es cero
 func divide(a, b float64) (float64, error) {
@@ -196,7 +198,7 @@ func divide(a, b float64) (float64, error) {
     return a / b, nil
 }
 
-main...
+//main...
 result, err = divide(10, 0)
     if err != nil {
         fmt.Println("Error:", err)
@@ -207,6 +209,7 @@ result, err = divide(10, 0)
 
 ### Defer
 * La palabra clave defer en Go se utiliza para posponer la ejecución de una función hasta que la función que la contiene haya terminado. Esto es muy útil para asegurar que ciertos recursos se liberen o ciertas acciones se realicen, sin importar cómo termine la función (ya sea de forma normal o debido a un error).
+
 ```Go
 func main() {
     file, err := os.Open("archivo.txt")
