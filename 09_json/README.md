@@ -26,7 +26,9 @@ next_page: 10-interfaces
 - La función `Unmarshal` convierte un objeto JSON en un objeto de Go.
 - ej de objeto de Go a JSON: [Url para testear online](https://goplay.tools/snippet/yBDcmNlTo4x)
 
+
 ```go
+
 package main
 
 import (
@@ -50,7 +52,9 @@ func main() {
 
 - ej de JSON a objeto de Go: [Url para testear online](https://goplay.tools/snippet/KffxhrFVmsA)
 
+
 ```go
+
 package main
 
 import (
@@ -77,7 +81,9 @@ func main() {
 - En caso de que un objeto JSON contenga una estructura anidada, la función `Unmarshal` puede ser utilizada para convertir el objeto JSON en un objeto de Go.
 - La idea es hacer la estructura completa del JSON para mejorar el manejo y evitar problemas de codificación y decodificación.
 
+
 ```go
+
 package main
 
 import (
@@ -118,14 +124,18 @@ func main() {
 - Estas etiquetas pueden usarse para cambiar el nombre de un atributo en el json o para hacer alguna combinación / comprobación.
 - ej de etiquetas:
 
+
 ```go
+
 type Persona struct {
 	Nombre string `json:"name"`
 	// cuando guardemos persona en el json, en vez de guardarse como {"Nombre":"Juan"}, guardaremos {"name": "Juan"}
 }
 ```
 
+
 ```go
+
 type Persona struct {
 	Nombre string `json:"nombre"`
 	Edad   int    `json:"edad,omitempty"`
@@ -135,7 +145,9 @@ type Persona struct {
 
 - Y ahora un ejemplo con todas las etiquetas:
 
+
 ```go
+
 package main
 
 import (

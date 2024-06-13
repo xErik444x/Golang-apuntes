@@ -24,7 +24,9 @@ next_page: 08-ejercicios
 
 ## Crear un archivo
 - Para crear un archivo, puedes usar la función `os.Create`, esta devuelve el archivo abierto y un error (si hay):
+
 ```go
+
 	archivo, err := os.Create("test.txt")
 	if err != nil {
 		fmt.Println("error al crear el archivo :c ", err)
@@ -34,7 +36,9 @@ next_page: 08-ejercicios
 ```
 ## Escribir en un archivo
 - Para escribir en un archivo, puedes usar el paquete `os` para crear y abrir archivos, una vez abierto llamas a `WriteString` con el texto que deseas escribir y listo ;).
+
 ```go
+
 	archivo, err := os.Create("test.txt")
 	if err != nil {
 		fmt.Println("error al crear el archivo :c ", err)
@@ -52,7 +56,9 @@ next_page: 08-ejercicios
 ```
 ## Leer un archivo
 - Para leer un archivo, puedes usar el paquete `os` con la función `ReadFile` y lesto papurri, ahí tenes tu archivo todo lindo, todo bonito.
+
 ```go
+
 	content, err := os.ReadFile("test.txt")
 	if err != nil {
 		fmt.Println("error al leer el archivo D:", err)
@@ -63,7 +69,9 @@ next_page: 08-ejercicios
 ```
 ## Borrar un archivo
 - Para borrar un archivo, puedes usar el paquete `os` con la función `Remove`. Así, seco, sin nada más que añadir >:C
+
 ```go
+
     err = os.Remove("test.txt")
 	if err != nil {
 		fmt.Println("error al borrar el archivo D:", err)

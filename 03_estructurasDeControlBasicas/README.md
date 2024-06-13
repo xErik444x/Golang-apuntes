@@ -38,7 +38,9 @@ next_page: 04-funciones
   * operación al valor inicial
 
 
+
 ```go
+
 
 sum := 0
 for i := 0; i < 10; i++ {
@@ -61,7 +63,9 @@ fmt.Println("total: ", sum)
 
 
 
+
 ```go
+
 
 numbers := []int{1, 2, 3, 4, 5}
 sum := 0
@@ -89,7 +93,9 @@ El `if` en Go se utiliza para ejecutar bloques de código condicionalmente. La s
 
 
 
+
 ```go
+
 
 package main
 
@@ -107,7 +113,9 @@ func main() {
 #### If con declaración de inicialización
 
 
+
 ```go
+
 
    if number := 10; number > 5 {
         fmt.Println("El número es mayor que 5")
@@ -117,7 +125,9 @@ func main() {
 #### If-else
 
 
+
 ```go
+
 
    if number > 10 {
         fmt.Println("El número es mayor que 10")
@@ -140,7 +150,9 @@ El `switch` en Go se utiliza para seleccionar entre múltiples bloques de códig
 
 
 
+
 ```go
+
 
 package main
 
@@ -163,7 +175,9 @@ func main() {
 #### Switch con múltiples valores en un caso
 
 
+
 ```go
+
 
 switch day {
   case "sábado", "domingo":
@@ -176,7 +190,9 @@ switch day {
 #### Switch sin expresión
 
 
+
 ```go
+
 
 switch {
     case number < 0:
@@ -189,7 +205,9 @@ switch {
 #### Switch con declaración de inicialización
 
 
+
 ```go
+
 
 switch number := 10; {
     case number < 0:
@@ -204,7 +222,9 @@ switch number := 10; {
 
 
 
+
 ```go
+
 
 
 func main() {
@@ -223,7 +243,9 @@ func main() {
 
 
 
+
 ```go
+
 
 
 // divide dos números y devuelve el resultado y un error si el divisor es cero
@@ -248,7 +270,9 @@ result, err = divide(10, 0)
 
 
 
+
 ```go
+
 
 func main() {
     file, err := os.Open("archivo.txt")

@@ -37,7 +37,9 @@ next_page: 06-cli
 
 
 
+
 ```go
+
 var x int = 42
 var y float64 = float64(x) // convertimos x a float64
 fmt.Println(y) // 42.0
@@ -48,7 +50,9 @@ fmt.Println(y) // 42.0
 
 
 
+
 ```go
+
 var m map[string]int = map[string]int{"valor_uno": 1, "valor_dos": 2}
 fmt.Println(m)
 ```
@@ -58,7 +62,9 @@ fmt.Println(m)
 
 
 
+
 ```go
+
 var slice []int = []int{1, 2, 3}
 fmt.Println(slice)
 ```
@@ -70,7 +76,9 @@ fmt.Println(slice)
 
 
 
+
 ```go
+
 type Persona struct {
     Nombre string
     Edad   int
@@ -94,7 +102,9 @@ Para crear un slice con una longitud y capacidad específica.
 
 
 
+
 ```go
+
 func main() {
     slice := make([]int, 5, 10)
     fmt.Println(slice)       // Imprime: [0 0 0 0 0]
@@ -107,7 +117,9 @@ func main() {
 
 
 
+
 ```go
+
 func main() {
     slice := make([]int, 5, 10)
     slice = append(slice, 1, 2, 3)
@@ -121,7 +133,9 @@ func main() {
 
 
 
+
 ```go
+
 func main() {
     m := make(map[string]int)
     m["key"] = 42
@@ -139,7 +153,9 @@ ej:
 
 
 
+
 ```go
+
 var p *int
 ```
 ### Inicialización de Punteros
@@ -148,7 +164,9 @@ var p *int
 
 
 
+
 ```go
+
 var x int = 42
 var p *int = &x
 fmt.Println(*p) // Imprime: 42
@@ -158,7 +176,9 @@ fmt.Println(*p) // Imprime: 42
 
 
 
+
 ```go
+
 var x int = 42
 var p *int = &x
 fmt.Println(*p) // Imprime: 42
@@ -172,7 +192,9 @@ fmt.Println(x)   // Imprime 20
 
 
 
+
 ```go
+
 func modificarValor(p *int) {
     *p = 30
 }
@@ -190,7 +212,9 @@ func main() {
 
 
 
+
 ```go
+
 type Persona struct {
     nombre string
     edad   int
@@ -211,7 +235,9 @@ func main() {
 
 
 
+
 ```go
+
 var p *int
 if p != nil {
     fmt.Println(*p)
@@ -226,7 +252,9 @@ if p != nil {
 
 
 
+
 ```go
+
     var a float64 = 7.5
     var b int = 3
     // completa el código

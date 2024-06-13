@@ -12,22 +12,30 @@ next_page: 03-estructuras
 # Variables y declaraciones
 > En Go, las variables se pueden declarar de varias maneras. 
 * Declaración con var 
-```go 
+
+```go
+ 
 var nombre string
 var edad int
 ```
 * Declaración con inicialización
-```go 
+
+```go
+ 
 var nombre string = "Nombre generico"
 var edad int = 30
 ```
 * Declaración corta con :=
-```go 
+
+```go
+ 
 nombre := "Nombre generico2"
 edad := 30
 ```
 * Declaración de múltiples variables
-```go 
+
+```go
+ 
 var (
     nombre string
     edad   int
@@ -36,13 +44,17 @@ var (
 // Es posible declarar múltiples variables al mismo tiempo usando paréntesis.
 ```
 * Constantes
-```go 
+
+```go
+ 
 const PI = 3.14
 const Nombre = "Nombre generico3"
 ```
 ### tipos de datos variables
 * Las mas comunes, bool, int, float, string:
+
 ```go
+
   var a bool = true     // Boolean
   var b int = 5         // Integer
   var c float32 = 3.14  // Floating point number
@@ -50,12 +62,16 @@ const Nombre = "Nombre generico3"
 ```
 * Arrays
 > los arrays pueden ser de una longitud constante:
+
 ```go
+
   var arr [3]int = [3]int{1,2,3}
   arr2 := [4]int{1,2,3,4}
 ```
 > o también sin predefinir el tamaño (esto lo hace el compilador cuando le asignamos el valor a la variable):
+
 ```go
+
   arr3 := [...]int{8, 9, 10}  // Aquí no usamos `var`
   arr2 := [...]int{1,2,3,4}
 ```

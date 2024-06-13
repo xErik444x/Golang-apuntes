@@ -24,7 +24,9 @@ next_page: 02-variables
 
 ## Ejemplo de Código en Go
 
+
 ```go
+
 package main
 
 import "fmt"
@@ -47,7 +49,9 @@ $ go mod init example/hello
 * una vez creado el modulo, debemos crear el archivo que contenga la función `main` (principal) del programa.
 * dentro de un archivo con terminación .go ej: principal.go escribimos:
 
+
 ```go
+
 package main
 
 import "fmt"

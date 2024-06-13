@@ -12,7 +12,9 @@
 
 ## Iniciando una Goroutine
 Para iniciar una goroutine, simplemente coloca la palabra clave `go` antes de la llamada a la función:
+
 ```go
+
 package main
 
 import (
@@ -33,6 +35,8 @@ func main() {
 
 ## ejemplo con archivos
 - supongamos que queremos analizar muchos archivos en simultaneo, para aprovechar las goroutines y no esperar a que todos terminen.
+
 ```go
+
 
 ```
