@@ -38,12 +38,15 @@ func main() {
 > [basandonos en la guia oficial](https://go.dev/doc/tutorial/getting-started) luego de instalar todos los requisitos
 * creamos la carpeta del proyecto
 * entramos dentro de la carpeta e inicializamos el proyecto
+
 ```bash
 $ go mod init example/hello
 ```
+
 * en este caso estamos creando el modulo example/hello (los nombres de módulos pueden llevar varias palabras separadas con `/` lo ideal es prefix/texto_descriptivo)
 * una vez creado el modulo, debemos crear el archivo que contenga la función `main` (principal) del programa.
 * dentro de un archivo con terminación .go ej: principal.go escribimos:
+
 ```go
 package main
 
@@ -53,6 +56,7 @@ func main() {
     fmt.Println("Hola Manu mirá estoy hackeando la nasa!!!")
 }
 ```
+
 * una vez guardado solo resta ejecutarlo con `go run .` o `go run principal.go`
 * y listo, ahí tendrías tu primer programa en Golang!
 
