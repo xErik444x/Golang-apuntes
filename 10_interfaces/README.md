@@ -1,7 +1,7 @@
 ---
 id: 10-interfaces
-title: INTERFACES!
-sidebar_label: INTERFACES!
+title: Interfaces
+sidebar_label: Interfaces
 previous_page: 09-json
 ---
 
@@ -30,6 +30,7 @@ previous_page: 09-json
 
 **paso 1: Definir la interfaz**
 > definimos una interfaz `Informable`, que define/contiene un método Informar que devuelve un string.
+
 ```go
 type Informable interface {
     Informar() string
@@ -37,12 +38,15 @@ type Informable interface {
 ```
 **paso 2:  Crear una Estructura (Tipo)**
 > creamos una estructura `Persona` para implementar la interfaz `Informable`.
+
 ```go
 type Persona struct {
     Nombre string
 }
 ```
+
 **Paso 3: Implementar el método `Informar` en la estructura `Persona`**
+
 ```go
 func (p Persona) Informar() string {
     return "Hola, mi nombre es " + p.Nombre
@@ -50,6 +54,7 @@ func (p Persona) Informar() string {
 ```
 
 **Paso 4: Crear un objeto de tipo `Persona` y llamar al método `Informar`**
+
 ```go
 func main() {
     p := Persona{Nombre: "Juan"}
@@ -59,6 +64,7 @@ func main() {
 
 ## Usando interfaces en funciones como parámetros
 - Puedes escribir funciones que acepten interfaces como parámetros. Esto permite que las funciones trabajen con cualquier tipo que implemente la interfaz.
+
 ```go
 package main
 
@@ -93,6 +99,7 @@ func main() {
 
 ## Interfaces vacías
 - La interfaz vacía `interface{}` es una interfaz que no tiene métodos. Esto significa que todos los tipos en Go implementan la interfaz vacía.
+
 ```go
 func main() {
     var x interface{}
@@ -120,6 +127,7 @@ func main() {
 ## Type assertions
 - Las type assertions permiten acceder al valor concreto almacenado en una variable de tipo interfaz.
 - En este ejemplo, la `type assertion` se usa en una declaración `switch` para determinar el tipo concreto del valor almacenado en `v`.
+
 ```go
 package main
 
