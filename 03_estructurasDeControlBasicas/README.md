@@ -36,7 +36,9 @@ next_page: 04-funciones
   * el valor inicial
   * la condición
   * operación al valor inicial
-```go
+
+
+```Go
 sum := 0
 for i := 0; i < 10; i++ {
     sum += i
@@ -56,7 +58,9 @@ fmt.Println("total: ", sum)
     * El `valor` del elemento.
 
 
-```go
+
+
+```Go
 numbers := []int{1, 2, 3, 4, 5}
 sum := 0
 // En el bucle for, el carácter _ se utiliza para ignorar el índice, ya que solo se necesita el valor del elemento para sumar los números.
@@ -81,7 +85,9 @@ El `if` en Go se utiliza para ejecutar bloques de código condicionalmente. La s
 
 #### Ejemplo básico de if
 
-```go
+
+
+```Go
 package main
 
 import "fmt"
@@ -96,14 +102,18 @@ func main() {
 ```
 
 #### If con declaración de inicialización
-```go
+
+
+```Go
    if number := 10; number > 5 {
         fmt.Println("El número es mayor que 5")
     }
 ```
 
 #### If-else
-```go
+
+
+```Go
    if number > 10 {
         fmt.Println("El número es mayor que 10")
     } else if number == 10 {
@@ -123,7 +133,9 @@ El `switch` en Go se utiliza para seleccionar entre múltiples bloques de códig
 
 #### Ejemplo básico de switch
 
-```go
+
+
+```Go
 package main
 
 import "fmt"
@@ -143,7 +155,9 @@ func main() {
 ```
 
 #### Switch con múltiples valores en un caso
-```go
+
+
+```Go
 switch day {
   case "sábado", "domingo":
       fmt.Println("Es fin de semana")
@@ -153,7 +167,9 @@ switch day {
 ```
 
 #### Switch sin expresión
-```go
+
+
+```Go
 switch {
     case number < 0:
         fmt.Println("El número es negativo")
@@ -163,7 +179,9 @@ switch {
 ```
 
 #### Switch con declaración de inicialización
-```go
+
+
+```Go
 switch number := 10; {
     case number < 0:
         fmt.Println("El número es negativo")
@@ -174,6 +192,8 @@ switch number := 10; {
 
 ### Error Handling (agarrar los errores)
 * El manejo de errores en Go es explícito y se basa en la comprobación de valores de retorno de las funciones. En Go, las funciones que pueden fallar generalmente devuelven un valor y un error. Si el error no es `nil`, significa que ha ocurrido un error y debe ser manejado, ej:
+
+
 
 
 ```Go
@@ -189,6 +209,8 @@ func main() {
 
 #### Declaración y manejo de errores en una función
 * Supongamos que estamos escribiendo una función que divide dos números y queremos manejar el caso donde el divisor es cero, lo cual generaría un error.
+
+
 
 ```Go
 // divide dos números y devuelve el resultado y un error si el divisor es cero
@@ -210,6 +232,8 @@ result, err = divide(10, 0)
 
 ### Defer
 * La palabra clave defer en Go se utiliza para posponer la ejecución de una función hasta que la función que la contiene haya terminado. Esto es muy útil para asegurar que ciertos recursos se liberen o ciertas acciones se realicen, sin importar cómo termine la función (ya sea de forma normal o debido a un error).
+
+
 
 ```Go
 func main() {
