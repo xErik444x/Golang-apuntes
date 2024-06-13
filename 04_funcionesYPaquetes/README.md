@@ -26,6 +26,7 @@ next_page: 05-types
 - tambien podemos declarar y usar funciones propias.
 ### Ejemplo de una función simple
 
+
 ```go
 func main() {
     fmt.Println(sumar(2, 3))
