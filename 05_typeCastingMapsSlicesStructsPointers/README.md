@@ -61,6 +61,7 @@ fmt.Println(slice)
 - Las structs son tipos de datos que agrupan campos. Cada campo tiene un nombre y un tipo.
 - Los structs funcionan como contenedores de datos estructurados, similares a clases en otros lenguajes, pero sin métodos o herencia.
 
+
 ```go
 type Persona struct {
     Nombre string
