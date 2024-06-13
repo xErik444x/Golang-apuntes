@@ -54,6 +54,7 @@ fmt.Println("total: ", sum)
 * Tenemos 2 valores devueltos por range:
     * El `índice` del elemento.
     * El `valor` del elemento.
+  
 ```go
 numbers := []int{1, 2, 3, 4, 5}
 sum := 0
@@ -78,6 +79,7 @@ El `if` en Go se utiliza para ejecutar bloques de código condicionalmente. La s
 * Go soporta una declaración de inicialización antes de la condición en el `if`, la cual se ejecuta antes de evaluar la condición.
 
 #### Ejemplo básico de if
+
 ```go
 package main
 
