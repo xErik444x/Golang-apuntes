@@ -25,6 +25,7 @@ next_page: 05-types
 - la función main por ejemplo es la que se encarga de ejecutar el programa.
 - tambien podemos declarar y usar funciones propias.
 ### Ejemplo de una función simple
+
 ```go
 func main() {
     fmt.Println(sumar(2, 3))
@@ -34,7 +35,9 @@ func sumar(a int, b int) int {
     return a + b
 }
 ```
+
 ### Ejemplo devolviendo dos valores
+
 ```go
 func main() {
     a, b := vals()
@@ -49,6 +52,7 @@ func vals() (int, int) {
 ### Declarar funciones fuera del archivo principal
 - Las funciones también se pueden declarar fuera del archivo principal y ser utilizadas en el mismo o en otros archivos.
 - `archivo matematicas.go`
+
 ```go
 package main
 
@@ -56,7 +60,9 @@ func sumar(a int, b int) int {
     return a + b
 }
 ```
+
 - `archivo main.go`
+
 ```go
 package main
 
@@ -66,6 +72,7 @@ func main() {
     fmt.Println(sumar(2, 3))
 }
 ```
+
 - Si te das cuenta, no hace falta importar la función, porque ya forma parte del paquete main.
 
 ## Paquetes
@@ -74,6 +81,7 @@ func main() {
 - `fmt` es un paquete de funciones de escritura.
 - `math` es un paquete de funciones matemáticas.
 ej:
+
 ```go
 package main
 import "fmt"
@@ -82,6 +90,7 @@ func main() {
     fmt.Println(math.Pi)
 }
 ```
+
 - Podemos obtener estos paquetes creándolos por nuestra cuenta o buscándolos en [pkg.go.dev](https://pkg.go.dev/)
 - Primero debemos importarlo al proyecto con `go get rsc.io/quote`
 - E importarlo en el main como hicimos con `fmt`, ej import `"rsc.io/quote"`
@@ -90,6 +99,7 @@ func main() {
 - creamos una carpeta para guardar nuestro paquete custom dentro de la raiz del proyecto.
 - creamos un archivo llamado `operaciones.go`
 - dentro metemos la función `Sumar` y `Restar` siguientes:
+
 ```go
 package operaciones
 
@@ -100,7 +110,9 @@ func Restar(a int, b int) int {
     return a - b
 }
 ```
+
 - Si te das cuenta colocamos el nombre del paquete en la parte superior, ej `package operaciones`, y luego solo basta con importar el paquete colocando el identificador del proyecto (dentro del go.mod) y el nombre del paquete, ej:
+
 ```go
 import "fmt"
 import "idProyecto/descripcion/operaciones"
@@ -109,6 +121,7 @@ func main() {
     fmt.Println(operaciones.Restar(2, 3))
 }
 ```
+
 - Si querés indagar mas acerca de las dependencias / paquetes, puedes visitar [go.dev](https://go.dev/doc/modules/managing-dependencies)
 
 
