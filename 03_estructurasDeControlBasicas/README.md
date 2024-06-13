@@ -54,7 +54,8 @@ fmt.Println("total: ", sum)
 * Tenemos 2 valores devueltos por range:
     * El `índice` del elemento.
     * El `valor` del elemento.
-  
+
+
 ```go
 numbers := []int{1, 2, 3, 4, 5}
 sum := 0
@@ -172,8 +173,8 @@ switch number := 10; {
 ```
 
 ### Error Handling (agarrar los errores)
-* El manejo de errores en Go es explícito y se basa en la comprobación de valores de retorno de las funciones. En Go, las funciones que pueden fallar generalmente devuelven un valor y un error. Si el error no es `nil`, significa que ha ocurrido un error y debe ser manejado,
-ej:
+* El manejo de errores en Go es explícito y se basa en la comprobación de valores de retorno de las funciones. En Go, las funciones que pueden fallar generalmente devuelven un valor y un error. Si el error no es `nil`, significa que ha ocurrido un error y debe ser manejado, ej:
+
 
 ```Go
 func main() {
