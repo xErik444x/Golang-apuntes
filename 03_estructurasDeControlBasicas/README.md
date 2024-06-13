@@ -38,7 +38,8 @@ next_page: 04-funciones
   * operación al valor inicial
 
 
-```Go
+```go
+
 sum := 0
 for i := 0; i < 10; i++ {
     sum += i
@@ -60,7 +61,8 @@ fmt.Println("total: ", sum)
 
 
 
-```Go
+```go
+
 numbers := []int{1, 2, 3, 4, 5}
 sum := 0
 // En el bucle for, el carácter _ se utiliza para ignorar el índice, ya que solo se necesita el valor del elemento para sumar los números.
@@ -87,7 +89,8 @@ El `if` en Go se utiliza para ejecutar bloques de código condicionalmente. La s
 
 
 
-```Go
+```go
+
 package main
 
 import "fmt"
@@ -104,7 +107,8 @@ func main() {
 #### If con declaración de inicialización
 
 
-```Go
+```go
+
    if number := 10; number > 5 {
         fmt.Println("El número es mayor que 5")
     }
@@ -113,7 +117,8 @@ func main() {
 #### If-else
 
 
-```Go
+```go
+
    if number > 10 {
         fmt.Println("El número es mayor que 10")
     } else if number == 10 {
@@ -135,7 +140,8 @@ El `switch` en Go se utiliza para seleccionar entre múltiples bloques de códig
 
 
 
-```Go
+```go
+
 package main
 
 import "fmt"
@@ -157,7 +163,8 @@ func main() {
 #### Switch con múltiples valores en un caso
 
 
-```Go
+```go
+
 switch day {
   case "sábado", "domingo":
       fmt.Println("Es fin de semana")
@@ -169,7 +176,8 @@ switch day {
 #### Switch sin expresión
 
 
-```Go
+```go
+
 switch {
     case number < 0:
         fmt.Println("El número es negativo")
@@ -181,7 +189,8 @@ switch {
 #### Switch con declaración de inicialización
 
 
-```Go
+```go
+
 switch number := 10; {
     case number < 0:
         fmt.Println("El número es negativo")
@@ -195,8 +204,9 @@ switch number := 10; {
 
 
 
+```go
 
-```Go
+
 func main() {
     file, err := os.Open("archivo.txt")
     if err != nil {
@@ -205,6 +215,7 @@ func main() {
     }
     fmt.Println("Archivo abierto con éxito")
 }
+
 ```
 
 #### Declaración y manejo de errores en una función
@@ -212,7 +223,9 @@ func main() {
 
 
 
-```Go
+```go
+
+
 // divide dos números y devuelve el resultado y un error si el divisor es cero
 func divide(a, b float64) (float64, error) {
     if b == 0 {
@@ -235,7 +248,8 @@ result, err = divide(10, 0)
 
 
 
-```Go
+```go
+
 func main() {
     file, err := os.Open("archivo.txt")
     if err != nil {
