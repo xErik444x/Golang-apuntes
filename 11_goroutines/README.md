@@ -1,3 +1,20 @@
+---
+id: 11-goroutines
+title: Goroutines
+sidebar_label: Goroutines
+previous_page: 10-interfaces
+---
+
+- [Goroutines, Concurrencia y Canales!](#goroutines-concurrencia-y-canales)
+  - [¿Qué es la concurrencia?](#qué-es-la-concurrencia)
+  - [¿Qué es una Goroutine?](#qué-es-una-goroutine)
+    - [¿Cuales son las ventajas de usar Goroutines?](#cuales-son-las-ventajas-de-usar-goroutines)
+    - [Iniciando una Goroutine](#iniciando-una-goroutine)
+  - [Canales!](#canales)
+    - [Creando un canal](#creando-un-canal)
+    - [Enviando y Recibiendo Datos](#enviando-y-recibiendo-datos)
+    - [Ejemplo de código completo](#ejemplo-de-código-completo)
+
 # Goroutines, Concurrencia y Canales!
 
 ## ¿Qué es la concurrencia?

@@ -16,3 +16,4 @@ sidebar:
   - separador-01
   - 09-json
   - 10-interfaces
+  - 11-goroutines
