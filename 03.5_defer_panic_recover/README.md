@@ -134,3 +134,5 @@ main(): recuperación verificarNumero() recibió un número negativo
 
 Si te das cuenta, el programa no crasheó sino que se recuperó del panic.
 ```
+
+> La combinación de las funciones panic y recover es la forma idiomática en la que Go controla las excepciones. Otros lenguajes de programación usan el bloque try/catch. (robado de microsoft)
