@@ -32,6 +32,11 @@
     - [Error Handling (agarrar los errores)](03_estructurasDeControlBasicas/README.md#error-handling-agarrar-los-errores)
       - [Declaración y manejo de errores en una función](03_estructurasDeControlBasicas/README.md#declaración-y-manejo-de-errores-en-una-función)
     - [Defer](03_estructurasDeControlBasicas/README.md#defer)
+- [Repaso rapido de `defer`, `panic` y `recover`](03.5_defer_panic_recover/README.md#repaso-rapido-de-defer-panic-y-recover)
+  - [Función `defer`](03.5_defer_panic_recover/README.md#función-defer)
+  - [Función `panic`](03.5_defer_panic_recover/README.md#función-panic)
+  - [Función `recover`](03.5_defer_panic_recover/README.md#función-recover)
+
   - [Ejercicios](#ejercicios)
     - [Ejercicio 1: Sumar números del 1 al 100](03_estructurasDeControlBasicas/README.md#ejercicio-1-sumar-números-del-1-al-100)
     - [Ejercicio 2: Sumar elementos de un array](03_estructurasDeControlBasicas/README.md#ejercicio-2-sumar-elementos-de-un-array)
