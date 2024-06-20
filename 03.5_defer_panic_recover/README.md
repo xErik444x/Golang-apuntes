@@ -1,7 +1,6 @@
-
 ---
 id: 03-5-repaso
-title: Repaso rapido de `defer`, `panic` y `recover`
+title: Repaso rapido de defer, panic y recover
 sidebar_label: Defer, panic y recover
 previous_page: 03-estructuras
 next_page: 04-funciones
