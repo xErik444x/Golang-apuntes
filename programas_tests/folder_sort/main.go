@@ -33,7 +33,7 @@ var files = FileDefinitions{
 	Executables: []string{"msi", "win", "exe"},
 	Torrents:    []string{"torrent", "bittorent"},
 	Others:      []string{"dont_touch"},
-	Ignore:      []string{"folder_sort.exe"},
+	Ignore:      []string{"folder_sort"},
 }
 
 var directoryMapping = map[string][]string{
@@ -54,12 +54,25 @@ func main() {
 		fmt.Println("Error al obtener la ruta del ejecutable:", err)
 		return
 	}
-	currentDir := filepath.Dir(exePath)
+	exeDir := filepath.Dir(exePath)
+	fmt.Println("La ruta del ejecutable es:", exeDir)
+
+	currentDir, err := os.Getwd()
+	if err != nil {
+		fmt.Println("Error obteniendo el directorio de trabajo actual:", err)
+		return
+	}
 	fmt.Println("La ruta actual de ejecución es:", currentDir)
 
 	dirInfo, _ := os.ReadDir("./")
+
+	fmt.Println("Presiona Enter para continuar o Q para salir.")
 	var input string
 	fmt.Scanln(&input)
+
+	if strings.ToLower(input) == "q" {
+		return
+	}
 
 	progressBar := pb.StartNew(len(dirInfo))
 
@@ -81,7 +94,7 @@ func main() {
 			moveFile(file.Name(), true)
 			continue
 		}
-		if contains(files.Ignore, file.Name()) {
+		if contains(files.Ignore, strings.Split(file.Name(), ".")[0]) {
 			//println("archivo ignorado.")
 			continue
 		}
