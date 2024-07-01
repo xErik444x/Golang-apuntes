@@ -36,8 +36,6 @@ next_page: 06-cli
 ### Ejemplo de Type Casting:
 
 
-
-
 ```go
 
 var x int = 42
@@ -45,6 +43,7 @@ var y float64 = float64(x) // convertimos x a float64
 fmt.Println(y) // 42.0
 ```
 ## Maps
+
 - Los maps son colecciones desordenadas de pares clave/valor. Las claves deben ser de un tipo que sea comparable, y los valores pueden ser de cualquier tipo.
 - los podemos ver como si fueran un objeto de javascript.
 
@@ -62,11 +61,29 @@ fmt.Println(m)
 
 
 
-
 ```go
 
 var slice []int = []int{1, 2, 3}
 fmt.Println(slice)
+```
+- añadir valor a un slice:
+
+```go
+
+    paises := make([]string, 3)
+    paises[0] = "España"
+    paises[1] = "Francia"
+    paises[2] = "Italia"
+    // y para agregar:
+    paises = append(paises, "Alemania")
+    // Para eliminar un elemento de la lista 'paises':
+    // Supongamos que queremos eliminar el elemento en el índice 2, que es "Alemania".
+    // Para hacer esto, creamos un nuevo slice que combina todos los elementos antes del índice 2
+    // y todos los elementos después del índice 2. Esto se logra con append:
+    // - paises[:2] obtiene todos los elementos desde el inicio hasta el índice 2 (exclusivo).
+    // - paises[3:] obtiene todos los elementos desde el índice 3 hasta el final del slice.
+    // Luego, append combina estos dos slices, omitiendo el elemento en el índice 2.
+    paises = append(paises[:2], paises[3:]...)
 ```
 
 ## Structs
