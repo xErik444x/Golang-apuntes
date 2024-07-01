@@ -11,6 +11,7 @@ next_page: 05-types
     - [Ejemplo devolviendo dos valores](#ejemplo-devolviendo-dos-valores)
     - [Declarar funciones fuera del archivo principal](#declarar-funciones-fuera-del-archivo-principal)
     - [Funciones anonimas](#funciones-anonimas)
+    - [Funciones closure](#funciones-closure)
   - [Paquetes](#paquetes)
     - [Creación de paquete custom](#creación-de-paquete-custom)
   - [Ejercicios!](#ejercicios)
@@ -99,6 +100,39 @@ func main() {
 var sumar = func(a int, b int) int {
     return a + b
 }
+```
+
+### Funciones closure
+- Son funciones que retornan otras funciones.
+- por ejemplo:
+```go
+
+func tabla(valor int) func() int {
+    numero := valor
+    secuencia := 0
+    return func() int {
+        secuencia++
+        return numero * secuencia
+    }
+}
+
+// y para llamarla:
+variable := tabla(2)
+for i := 0; i < 10; i++ {
+    fmt.Printf("2 x %d = %d\n", i, variable())
+}
+/*
+2 x 0 = 2
+2 x 1 = 4
+2 x 2 = 6
+2 x 3 = 8
+2 x 4 = 10
+2 x 5 = 12
+2 x 6 = 14
+2 x 7 = 16
+2 x 8 = 18
+2 x 9 = 20
+*/
 ```
 
 ## Paquetes
