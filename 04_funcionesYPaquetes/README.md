@@ -10,6 +10,7 @@ next_page: 05-types
     - [Ejemplo de una función simple](#ejemplo-de-una-función-simple)
     - [Ejemplo devolviendo dos valores](#ejemplo-devolviendo-dos-valores)
     - [Declarar funciones fuera del archivo principal](#declarar-funciones-fuera-del-archivo-principal)
+    - [Funciones anonimas](#funciones-anonimas)
   - [Paquetes](#paquetes)
     - [Creación de paquete custom](#creación-de-paquete-custom)
   - [Ejercicios!](#ejercicios)
@@ -88,6 +89,17 @@ func main() {
 ```
 
 - Si te das cuenta, no hace falta importar la función, porque ya forma parte del paquete main.
+
+### Funciones anonimas
+- Las funciones anonimas son funciones que no tienen un nombre.
+- Por ejemplo:
+
+```go
+
+var sumar = func(a int, b int) int {
+    return a + b
+}
+```
 
 ## Paquetes
 - Los paquetes son un conjunto de funciones que se pueden compartir entre archivos.
