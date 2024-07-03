@@ -23,3 +23,5 @@ este es un listado sin orden de proyectos que se me ocurrieron en esta guia y ot
 - [mazmorra archivos](https://github.com/xErik444x/Golang-apuntes/tree/main/programas_tests/mazmorra%20archivoso)
 
 - [mostrar imagen en ventana](https://github.com/xErik444x/Golang-apuntes/tree/main/programas_tests/mostrar%20imagen%20ventana)
+
+- [Conexión mysql por consola](https://github.com/xErik444x/Golang-apuntes/tree/main/programas_tests/mysqldb_console_clients)
