@@ -17,3 +17,6 @@ Este proyecto de Go permite la gestión de clientes en una base de datos MySQL d
 - Dependencias de Go:
   - `github.com/go-sql-driver/mysql`
   - `github.com/fatih/color`
+
+
+![imagen de ejemplo](https://i.imgur.com/g20Xkaf.png)
