@@ -76,6 +76,7 @@ for _, number := range numbers {
 fmt.Println("La suma de los números es:", sum)
 
 // con el indice:
+// https://pkg.go.dev/fmt#hdr-Printing parametros en string
 for index, number := range numbers {
     fmt.Printf("Índice: %d, Valor: %d\n", index, number)
     sum += number
